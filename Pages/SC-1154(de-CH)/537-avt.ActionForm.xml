@@ -288,280 +288,6 @@
       &lt;ColOffset&gt;0&lt;/ColOffset&gt;
     &lt;/Field&gt;
     &lt;Field&gt;
-      &lt;Id&gt;&lt;![CDATA[190]]&gt;&lt;/Id&gt;
-      &lt;Title&gt;&lt;![CDATA[PublishDate]]&gt;&lt;/Title&gt;
-      &lt;ShortDesc&gt;&lt;![CDATA[]]&gt;&lt;/ShortDesc&gt;
-      &lt;CustomAttributesJson&gt;&lt;![CDATA[[]]]&gt;&lt;/CustomAttributesJson&gt;
-      &lt;IsEnabled&gt;True&lt;/IsEnabled&gt;
-      &lt;OverrideName /&gt;
-      &lt;Name&gt;PublishDate&lt;/Name&gt;
-      &lt;HelpText&gt;&lt;![CDATA[]]&gt;&lt;/HelpText&gt;
-      &lt;ShowCondition&gt;&lt;![CDATA[]]&gt;&lt;/ShowCondition&gt;
-      &lt;ValidationCondition&gt;&lt;![CDATA[]]&gt;&lt;/ValidationCondition&gt;
-      &lt;CanValidate&gt;&lt;![CDATA[True]]&gt;&lt;/CanValidate&gt;
-      &lt;BindShow&gt;&lt;![CDATA[]]&gt;&lt;/BindShow&gt;
-      &lt;BindEnable&gt;&lt;![CDATA[]]&gt;&lt;/BindEnable&gt;
-      &lt;BindPreserveLayout&gt;&lt;![CDATA[False]]&gt;&lt;/BindPreserveLayout&gt;
-      &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
-      &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
-      &lt;InputType&gt;datetime&lt;/InputType&gt;
-      &lt;InputData&gt;{&quot;Value&quot;:&quot;&quot;,&quot;SaveToReport&quot;:true}&lt;/InputData&gt;
-      &lt;SaveToReport&gt;True&lt;/SaveToReport&gt;
-      &lt;Value&gt;&lt;![CDATA[]]&gt;&lt;/Value&gt;
-      &lt;IsRequired&gt;False&lt;/IsRequired&gt;
-      &lt;IsActive&gt;True&lt;/IsActive&gt;
-      &lt;EnableCondition /&gt;
-      &lt;CssClass&gt;&lt;![CDATA[]]&gt;&lt;/CssClass&gt;
-      &lt;FirstCssClass&gt;&lt;![CDATA[]]&gt;&lt;/FirstCssClass&gt;
-      &lt;CssStyles&gt;&lt;![CDATA[]]&gt;&lt;/CssStyles&gt;
-      &lt;LabelCssClass&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssClass&gt;
-      &lt;LabelCssStyles&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssStyles&gt;
-      &lt;CustomValidator1 /&gt;
-      &lt;CustomValidator2 /&gt;
-      &lt;ValidationGroup /&gt;
-      &lt;GroupValidator /&gt;
-      &lt;DisableAutocomplete&gt;False&lt;/DisableAutocomplete&gt;
-      &lt;ViewOrder&gt;5&lt;/ViewOrder&gt;
-      &lt;RowIndex&gt;5&lt;/RowIndex&gt;
-      &lt;ColSpan&gt;12&lt;/ColSpan&gt;
-      &lt;ColOffset&gt;0&lt;/ColOffset&gt;
-    &lt;/Field&gt;
-    &lt;Field&gt;
-      &lt;Id&gt;&lt;![CDATA[191]]&gt;&lt;/Id&gt;
-      &lt;Title&gt;&lt;![CDATA[PublishTime]]&gt;&lt;/Title&gt;
-      &lt;ShortDesc&gt;&lt;![CDATA[]]&gt;&lt;/ShortDesc&gt;
-      &lt;CustomAttributesJson&gt;&lt;![CDATA[[]]]&gt;&lt;/CustomAttributesJson&gt;
-      &lt;IsEnabled&gt;True&lt;/IsEnabled&gt;
-      &lt;OverrideName /&gt;
-      &lt;Name&gt;PublishTime&lt;/Name&gt;
-      &lt;HelpText&gt;&lt;![CDATA[]]&gt;&lt;/HelpText&gt;
-      &lt;ShowCondition&gt;&lt;![CDATA[]]&gt;&lt;/ShowCondition&gt;
-      &lt;ValidationCondition&gt;&lt;![CDATA[]]&gt;&lt;/ValidationCondition&gt;
-      &lt;CanValidate&gt;&lt;![CDATA[True]]&gt;&lt;/CanValidate&gt;
-      &lt;BindShow&gt;&lt;![CDATA[]]&gt;&lt;/BindShow&gt;
-      &lt;BindEnable&gt;&lt;![CDATA[]]&gt;&lt;/BindEnable&gt;
-      &lt;BindPreserveLayout&gt;&lt;![CDATA[False]]&gt;&lt;/BindPreserveLayout&gt;
-      &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
-      &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
-      &lt;InputType&gt;closed-multiple-dropdown&lt;/InputType&gt;
-      &lt;InputData&gt;{&quot;LinkTo&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;&quot;,&quot;IsExpression&quot;:false},&quot;Empty&quot;:&quot;&quot;,&quot;DataSource&quot;:{&quot;Value&quot;:&quot;Items&quot;,&quot;Items&quot;:&quot;00:00\n00:30\n01:00\n01:30\n02:00\n02:30\n03:00\n03:30\n04:00\n04:30\n05:00\n05:30\n06:00\n06:30\n07:00\n07:30\n08:00\n08:30\n09:00\n09:30\n10:00\n10:30\n11:00\n11:30\n12:00\n12:30\n13:00\n13:30\n14:00\n14:30\n15:00\n15:30\n16:00\n16:30\n17:00\n17:30\n18:00\n18:30\n19:00\n19:30\n20:00\n20:30\n21:00\n21:30\n22:00\n22:30\n23:00\n23:30&quot;},&quot;Value&quot;:&quot;&quot;,&quot;Other&quot;:&quot;&quot;,&quot;SaveToReport&quot;:true}&lt;/InputData&gt;
-      &lt;LinkTo&gt;
-        &lt;Expression /&gt;
-        &lt;Value /&gt;
-        &lt;IsExpression&gt;False&lt;/IsExpression&gt;
-      &lt;/LinkTo&gt;
-      &lt;Empty /&gt;
-      &lt;DataSource&gt;
-        &lt;Value&gt;Items&lt;/Value&gt;
-        &lt;Items&gt;00:00
-00:30
-01:00
-01:30
-02:00
-02:30
-03:00
-03:30
-04:00
-04:30
-05:00
-05:30
-06:00
-06:30
-07:00
-07:30
-08:00
-08:30
-09:00
-09:30
-10:00
-10:30
-11:00
-11:30
-12:00
-12:30
-13:00
-13:30
-14:00
-14:30
-15:00
-15:30
-16:00
-16:30
-17:00
-17:30
-18:00
-18:30
-19:00
-19:30
-20:00
-20:30
-21:00
-21:30
-22:00
-22:30
-23:00
-23:30&lt;/Items&gt;
-      &lt;/DataSource&gt;
-      &lt;Other /&gt;
-      &lt;SaveToReport&gt;True&lt;/SaveToReport&gt;
-      &lt;Flag&gt;dropdown&lt;/Flag&gt;
-      &lt;Value&gt;&lt;![CDATA[]]&gt;&lt;/Value&gt;
-      &lt;IsRequired&gt;False&lt;/IsRequired&gt;
-      &lt;IsActive&gt;True&lt;/IsActive&gt;
-      &lt;EnableCondition /&gt;
-      &lt;CssClass&gt;&lt;![CDATA[]]&gt;&lt;/CssClass&gt;
-      &lt;FirstCssClass&gt;&lt;![CDATA[]]&gt;&lt;/FirstCssClass&gt;
-      &lt;CssStyles&gt;&lt;![CDATA[]]&gt;&lt;/CssStyles&gt;
-      &lt;LabelCssClass&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssClass&gt;
-      &lt;LabelCssStyles&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssStyles&gt;
-      &lt;CustomValidator1 /&gt;
-      &lt;CustomValidator2 /&gt;
-      &lt;ValidationGroup /&gt;
-      &lt;GroupValidator /&gt;
-      &lt;DisableAutocomplete&gt;False&lt;/DisableAutocomplete&gt;
-      &lt;ViewOrder&gt;6&lt;/ViewOrder&gt;
-      &lt;RowIndex&gt;6&lt;/RowIndex&gt;
-      &lt;ColSpan&gt;12&lt;/ColSpan&gt;
-      &lt;ColOffset&gt;0&lt;/ColOffset&gt;
-    &lt;/Field&gt;
-    &lt;Field&gt;
-      &lt;Id&gt;&lt;![CDATA[192]]&gt;&lt;/Id&gt;
-      &lt;Title&gt;&lt;![CDATA[ExpireDate]]&gt;&lt;/Title&gt;
-      &lt;ShortDesc&gt;&lt;![CDATA[]]&gt;&lt;/ShortDesc&gt;
-      &lt;CustomAttributesJson&gt;&lt;![CDATA[[]]]&gt;&lt;/CustomAttributesJson&gt;
-      &lt;IsEnabled&gt;True&lt;/IsEnabled&gt;
-      &lt;OverrideName /&gt;
-      &lt;Name&gt;ExpireDate&lt;/Name&gt;
-      &lt;HelpText&gt;&lt;![CDATA[]]&gt;&lt;/HelpText&gt;
-      &lt;ShowCondition&gt;&lt;![CDATA[]]&gt;&lt;/ShowCondition&gt;
-      &lt;ValidationCondition&gt;&lt;![CDATA[]]&gt;&lt;/ValidationCondition&gt;
-      &lt;CanValidate&gt;&lt;![CDATA[True]]&gt;&lt;/CanValidate&gt;
-      &lt;BindShow&gt;&lt;![CDATA[]]&gt;&lt;/BindShow&gt;
-      &lt;BindEnable&gt;&lt;![CDATA[]]&gt;&lt;/BindEnable&gt;
-      &lt;BindPreserveLayout&gt;&lt;![CDATA[False]]&gt;&lt;/BindPreserveLayout&gt;
-      &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
-      &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
-      &lt;InputType&gt;datetime&lt;/InputType&gt;
-      &lt;InputData&gt;{&quot;Value&quot;:&quot;&quot;,&quot;SaveToReport&quot;:true}&lt;/InputData&gt;
-      &lt;SaveToReport&gt;True&lt;/SaveToReport&gt;
-      &lt;Value&gt;&lt;![CDATA[]]&gt;&lt;/Value&gt;
-      &lt;IsRequired&gt;False&lt;/IsRequired&gt;
-      &lt;IsActive&gt;True&lt;/IsActive&gt;
-      &lt;EnableCondition /&gt;
-      &lt;CssClass&gt;&lt;![CDATA[]]&gt;&lt;/CssClass&gt;
-      &lt;FirstCssClass&gt;&lt;![CDATA[]]&gt;&lt;/FirstCssClass&gt;
-      &lt;CssStyles&gt;&lt;![CDATA[]]&gt;&lt;/CssStyles&gt;
-      &lt;LabelCssClass&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssClass&gt;
-      &lt;LabelCssStyles&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssStyles&gt;
-      &lt;CustomValidator1 /&gt;
-      &lt;CustomValidator2 /&gt;
-      &lt;ValidationGroup /&gt;
-      &lt;GroupValidator /&gt;
-      &lt;DisableAutocomplete&gt;False&lt;/DisableAutocomplete&gt;
-      &lt;ViewOrder&gt;7&lt;/ViewOrder&gt;
-      &lt;RowIndex&gt;7&lt;/RowIndex&gt;
-      &lt;ColSpan&gt;12&lt;/ColSpan&gt;
-      &lt;ColOffset&gt;0&lt;/ColOffset&gt;
-    &lt;/Field&gt;
-    &lt;Field&gt;
-      &lt;Id&gt;&lt;![CDATA[193]]&gt;&lt;/Id&gt;
-      &lt;Title&gt;&lt;![CDATA[ExpireTime]]&gt;&lt;/Title&gt;
-      &lt;ShortDesc&gt;&lt;![CDATA[]]&gt;&lt;/ShortDesc&gt;
-      &lt;CustomAttributesJson&gt;&lt;![CDATA[[]]]&gt;&lt;/CustomAttributesJson&gt;
-      &lt;IsEnabled&gt;True&lt;/IsEnabled&gt;
-      &lt;OverrideName /&gt;
-      &lt;Name&gt;ExpireTime&lt;/Name&gt;
-      &lt;HelpText&gt;&lt;![CDATA[]]&gt;&lt;/HelpText&gt;
-      &lt;ShowCondition&gt;&lt;![CDATA[]]&gt;&lt;/ShowCondition&gt;
-      &lt;ValidationCondition&gt;&lt;![CDATA[]]&gt;&lt;/ValidationCondition&gt;
-      &lt;CanValidate&gt;&lt;![CDATA[True]]&gt;&lt;/CanValidate&gt;
-      &lt;BindShow&gt;&lt;![CDATA[]]&gt;&lt;/BindShow&gt;
-      &lt;BindEnable&gt;&lt;![CDATA[]]&gt;&lt;/BindEnable&gt;
-      &lt;BindPreserveLayout&gt;&lt;![CDATA[False]]&gt;&lt;/BindPreserveLayout&gt;
-      &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
-      &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
-      &lt;InputType&gt;closed-multiple-dropdown&lt;/InputType&gt;
-      &lt;InputData&gt;{&quot;LinkTo&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;&quot;,&quot;IsExpression&quot;:false},&quot;Empty&quot;:&quot;&quot;,&quot;DataSource&quot;:{&quot;Value&quot;:&quot;Items&quot;,&quot;Items&quot;:&quot;00:00\n00:30\n01:00\n01:30\n02:00\n02:30\n03:00\n03:30\n04:00\n04:30\n05:00\n05:30\n06:00\n06:30\n07:00\n07:30\n08:00\n08:30\n09:00\n09:30\n10:00\n10:30\n11:00\n11:30\n12:00\n12:30\n13:00\n13:30\n14:00\n14:30\n15:00\n15:30\n16:00\n16:30\n17:00\n17:30\n18:00\n18:30\n19:00\n19:30\n20:00\n20:30\n21:00\n21:30\n22:00\n22:30\n23:00\n23:30&quot;},&quot;Value&quot;:&quot;&quot;,&quot;Other&quot;:&quot;&quot;,&quot;SaveToReport&quot;:true}&lt;/InputData&gt;
-      &lt;LinkTo&gt;
-        &lt;Expression /&gt;
-        &lt;Value /&gt;
-        &lt;IsExpression&gt;False&lt;/IsExpression&gt;
-      &lt;/LinkTo&gt;
-      &lt;Empty /&gt;
-      &lt;DataSource&gt;
-        &lt;Value&gt;Items&lt;/Value&gt;
-        &lt;Items&gt;00:00
-00:30
-01:00
-01:30
-02:00
-02:30
-03:00
-03:30
-04:00
-04:30
-05:00
-05:30
-06:00
-06:30
-07:00
-07:30
-08:00
-08:30
-09:00
-09:30
-10:00
-10:30
-11:00
-11:30
-12:00
-12:30
-13:00
-13:30
-14:00
-14:30
-15:00
-15:30
-16:00
-16:30
-17:00
-17:30
-18:00
-18:30
-19:00
-19:30
-20:00
-20:30
-21:00
-21:30
-22:00
-22:30
-23:00
-23:30&lt;/Items&gt;
-      &lt;/DataSource&gt;
-      &lt;Other /&gt;
-      &lt;SaveToReport&gt;True&lt;/SaveToReport&gt;
-      &lt;Flag&gt;dropdown&lt;/Flag&gt;
-      &lt;Value&gt;&lt;![CDATA[]]&gt;&lt;/Value&gt;
-      &lt;IsRequired&gt;False&lt;/IsRequired&gt;
-      &lt;IsActive&gt;True&lt;/IsActive&gt;
-      &lt;EnableCondition /&gt;
-      &lt;CssClass&gt;&lt;![CDATA[]]&gt;&lt;/CssClass&gt;
-      &lt;FirstCssClass&gt;&lt;![CDATA[]]&gt;&lt;/FirstCssClass&gt;
-      &lt;CssStyles&gt;&lt;![CDATA[]]&gt;&lt;/CssStyles&gt;
-      &lt;LabelCssClass&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssClass&gt;
-      &lt;LabelCssStyles&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssStyles&gt;
-      &lt;CustomValidator1 /&gt;
-      &lt;CustomValidator2 /&gt;
-      &lt;ValidationGroup /&gt;
-      &lt;GroupValidator /&gt;
-      &lt;DisableAutocomplete&gt;False&lt;/DisableAutocomplete&gt;
-      &lt;ViewOrder&gt;8&lt;/ViewOrder&gt;
-      &lt;RowIndex&gt;8&lt;/RowIndex&gt;
-      &lt;ColSpan&gt;12&lt;/ColSpan&gt;
-      &lt;ColOffset&gt;0&lt;/ColOffset&gt;
-    &lt;/Field&gt;
-    &lt;Field&gt;
       &lt;Id&gt;&lt;![CDATA[194]]&gt;&lt;/Id&gt;
       &lt;Title&gt;&lt;![CDATA[Article Main Image]]&gt;&lt;/Title&gt;
       &lt;ShortDesc&gt;&lt;![CDATA[]]&gt;&lt;/ShortDesc&gt;
@@ -744,6 +470,142 @@
       &lt;ColSpan&gt;9&lt;/ColSpan&gt;
       &lt;ColOffset&gt;3&lt;/ColOffset&gt;
     &lt;/Field&gt;
+    &lt;Field&gt;
+      &lt;Id&gt;&lt;![CDATA[197]]&gt;&lt;/Id&gt;
+      &lt;Title&gt;&lt;![CDATA[PublishDateandTime]]&gt;&lt;/Title&gt;
+      &lt;ShortDesc&gt;&lt;![CDATA[]]&gt;&lt;/ShortDesc&gt;
+      &lt;CustomAttributesJson&gt;&lt;![CDATA[[]]]&gt;&lt;/CustomAttributesJson&gt;
+      &lt;IsEnabled&gt;True&lt;/IsEnabled&gt;
+      &lt;OverrideName /&gt;
+      &lt;Name&gt;PublishDateandTime&lt;/Name&gt;
+      &lt;HelpText&gt;&lt;![CDATA[]]&gt;&lt;/HelpText&gt;
+      &lt;ShowCondition&gt;&lt;![CDATA[]]&gt;&lt;/ShowCondition&gt;
+      &lt;ValidationCondition&gt;&lt;![CDATA[]]&gt;&lt;/ValidationCondition&gt;
+      &lt;CanValidate&gt;&lt;![CDATA[True]]&gt;&lt;/CanValidate&gt;
+      &lt;BindShow&gt;&lt;![CDATA[]]&gt;&lt;/BindShow&gt;
+      &lt;BindEnable&gt;&lt;![CDATA[]]&gt;&lt;/BindEnable&gt;
+      &lt;BindPreserveLayout&gt;&lt;![CDATA[False]]&gt;&lt;/BindPreserveLayout&gt;
+      &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
+      &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
+      &lt;InputType&gt;datetime-flatpickr&lt;/InputType&gt;
+      &lt;InputData&gt;{&quot;DateHelpText&quot;:&quot;&quot;,&quot;Value&quot;:&quot;&quot;,&quot;ClientFormat&quot;:&quot;&quot;,&quot;PickerType&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;dateandtime&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;DisableFutureOrPast&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;none&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;FirstDayOfWeek&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;sunday&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;DisableWeekends&quot;:false,&quot;Inline&quot;:false,&quot;Time24Hours&quot;:false,&quot;MinDate&quot;:&quot;&quot;,&quot;MaxDate&quot;:&quot;&quot;,&quot;MinTime&quot;:&quot;&quot;,&quot;MaxTime&quot;:&quot;&quot;,&quot;MinuteIncrement&quot;:&quot;5&quot;,&quot;SaveToReport&quot;:false}&lt;/InputData&gt;
+      &lt;DateHelpText /&gt;
+      &lt;ClientFormat /&gt;
+      &lt;PickerType&gt;
+        &lt;Expression /&gt;
+        &lt;Value&gt;dateandtime&lt;/Value&gt;
+        &lt;IsExpression&gt;False&lt;/IsExpression&gt;
+        &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
+      &lt;/PickerType&gt;
+      &lt;DisableFutureOrPast&gt;
+        &lt;Expression /&gt;
+        &lt;Value&gt;none&lt;/Value&gt;
+        &lt;IsExpression&gt;False&lt;/IsExpression&gt;
+        &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
+      &lt;/DisableFutureOrPast&gt;
+      &lt;FirstDayOfWeek&gt;
+        &lt;Expression /&gt;
+        &lt;Value&gt;sunday&lt;/Value&gt;
+        &lt;IsExpression&gt;False&lt;/IsExpression&gt;
+        &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
+      &lt;/FirstDayOfWeek&gt;
+      &lt;DisableWeekends&gt;False&lt;/DisableWeekends&gt;
+      &lt;Inline&gt;False&lt;/Inline&gt;
+      &lt;Time24Hours&gt;False&lt;/Time24Hours&gt;
+      &lt;MinDate /&gt;
+      &lt;MaxDate /&gt;
+      &lt;MinTime /&gt;
+      &lt;MaxTime /&gt;
+      &lt;MinuteIncrement&gt;5&lt;/MinuteIncrement&gt;
+      &lt;SaveToReport&gt;False&lt;/SaveToReport&gt;
+      &lt;IsoFormats&gt;{&quot;time&quot;:&quot;HH&#39;:&#39;mm&quot;,&quot;timeWithSeconds&quot;:&quot;HH&#39;:&#39;mm&#39;:&#39;ss&quot;,&quot;timeSpan&quot;:&quot;hh&#39;:&#39;mm&quot;,&quot;timeSpanWithSeconds&quot;:&quot;hh&#39;:&#39;mm&#39;:&#39;ss&quot;,&quot;date&quot;:&quot;yyyy-MM-dd&quot;,&quot;dateTime&quot;:&quot;yyyy-MM-dd&#39;T&#39;HH:mm:ssK&quot;,&quot;dateTimeWithMilliseconds&quot;:&quot;yyyy-MM-dd&#39;T&#39;HH:mm:ss.FFFFFFFK&quot;}&lt;/IsoFormats&gt;
+      &lt;Value&gt;&lt;![CDATA[]]&gt;&lt;/Value&gt;
+      &lt;IsRequired&gt;False&lt;/IsRequired&gt;
+      &lt;IsActive&gt;True&lt;/IsActive&gt;
+      &lt;EnableCondition /&gt;
+      &lt;CssClass&gt;&lt;![CDATA[]]&gt;&lt;/CssClass&gt;
+      &lt;FirstCssClass&gt;&lt;![CDATA[]]&gt;&lt;/FirstCssClass&gt;
+      &lt;CssStyles&gt;&lt;![CDATA[]]&gt;&lt;/CssStyles&gt;
+      &lt;LabelCssClass&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssClass&gt;
+      &lt;LabelCssStyles&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssStyles&gt;
+      &lt;CustomValidator1 /&gt;
+      &lt;CustomValidator2 /&gt;
+      &lt;ValidationGroup /&gt;
+      &lt;GroupValidator /&gt;
+      &lt;DisableAutocomplete&gt;False&lt;/DisableAutocomplete&gt;
+      &lt;ViewOrder&gt;0&lt;/ViewOrder&gt;
+      &lt;RowIndex&gt;12&lt;/RowIndex&gt;
+      &lt;ColSpan&gt;12&lt;/ColSpan&gt;
+      &lt;ColOffset&gt;0&lt;/ColOffset&gt;
+    &lt;/Field&gt;
+    &lt;Field&gt;
+      &lt;Id&gt;&lt;![CDATA[198]]&gt;&lt;/Id&gt;
+      &lt;Title&gt;&lt;![CDATA[ExpireDateandTime]]&gt;&lt;/Title&gt;
+      &lt;ShortDesc&gt;&lt;![CDATA[]]&gt;&lt;/ShortDesc&gt;
+      &lt;CustomAttributesJson&gt;&lt;![CDATA[[]]]&gt;&lt;/CustomAttributesJson&gt;
+      &lt;IsEnabled&gt;True&lt;/IsEnabled&gt;
+      &lt;OverrideName /&gt;
+      &lt;Name&gt;ExpireDateandTime&lt;/Name&gt;
+      &lt;HelpText&gt;&lt;![CDATA[]]&gt;&lt;/HelpText&gt;
+      &lt;ShowCondition&gt;&lt;![CDATA[]]&gt;&lt;/ShowCondition&gt;
+      &lt;ValidationCondition&gt;&lt;![CDATA[]]&gt;&lt;/ValidationCondition&gt;
+      &lt;CanValidate&gt;&lt;![CDATA[True]]&gt;&lt;/CanValidate&gt;
+      &lt;BindShow&gt;&lt;![CDATA[]]&gt;&lt;/BindShow&gt;
+      &lt;BindEnable&gt;&lt;![CDATA[]]&gt;&lt;/BindEnable&gt;
+      &lt;BindPreserveLayout&gt;&lt;![CDATA[False]]&gt;&lt;/BindPreserveLayout&gt;
+      &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
+      &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
+      &lt;InputType&gt;datetime-flatpickr&lt;/InputType&gt;
+      &lt;InputData&gt;{&quot;DateHelpText&quot;:&quot;&quot;,&quot;Value&quot;:&quot;&quot;,&quot;ClientFormat&quot;:&quot;&quot;,&quot;PickerType&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;dateandtime&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;DisableFutureOrPast&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;none&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;FirstDayOfWeek&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;sunday&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;DisableWeekends&quot;:false,&quot;Inline&quot;:false,&quot;Time24Hours&quot;:false,&quot;MinDate&quot;:&quot;&quot;,&quot;MaxDate&quot;:&quot;&quot;,&quot;MinTime&quot;:&quot;&quot;,&quot;MaxTime&quot;:&quot;&quot;,&quot;MinuteIncrement&quot;:&quot;5&quot;,&quot;SaveToReport&quot;:false}&lt;/InputData&gt;
+      &lt;DateHelpText /&gt;
+      &lt;ClientFormat /&gt;
+      &lt;PickerType&gt;
+        &lt;Expression /&gt;
+        &lt;Value&gt;dateandtime&lt;/Value&gt;
+        &lt;IsExpression&gt;False&lt;/IsExpression&gt;
+        &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
+      &lt;/PickerType&gt;
+      &lt;DisableFutureOrPast&gt;
+        &lt;Expression /&gt;
+        &lt;Value&gt;none&lt;/Value&gt;
+        &lt;IsExpression&gt;False&lt;/IsExpression&gt;
+        &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
+      &lt;/DisableFutureOrPast&gt;
+      &lt;FirstDayOfWeek&gt;
+        &lt;Expression /&gt;
+        &lt;Value&gt;sunday&lt;/Value&gt;
+        &lt;IsExpression&gt;False&lt;/IsExpression&gt;
+        &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
+      &lt;/FirstDayOfWeek&gt;
+      &lt;DisableWeekends&gt;False&lt;/DisableWeekends&gt;
+      &lt;Inline&gt;False&lt;/Inline&gt;
+      &lt;Time24Hours&gt;False&lt;/Time24Hours&gt;
+      &lt;MinDate /&gt;
+      &lt;MaxDate /&gt;
+      &lt;MinTime /&gt;
+      &lt;MaxTime /&gt;
+      &lt;MinuteIncrement&gt;5&lt;/MinuteIncrement&gt;
+      &lt;SaveToReport&gt;False&lt;/SaveToReport&gt;
+      &lt;IsoFormats&gt;{&quot;time&quot;:&quot;HH&#39;:&#39;mm&quot;,&quot;timeWithSeconds&quot;:&quot;HH&#39;:&#39;mm&#39;:&#39;ss&quot;,&quot;timeSpan&quot;:&quot;hh&#39;:&#39;mm&quot;,&quot;timeSpanWithSeconds&quot;:&quot;hh&#39;:&#39;mm&#39;:&#39;ss&quot;,&quot;date&quot;:&quot;yyyy-MM-dd&quot;,&quot;dateTime&quot;:&quot;yyyy-MM-dd&#39;T&#39;HH:mm:ssK&quot;,&quot;dateTimeWithMilliseconds&quot;:&quot;yyyy-MM-dd&#39;T&#39;HH:mm:ss.FFFFFFFK&quot;}&lt;/IsoFormats&gt;
+      &lt;Value&gt;&lt;![CDATA[]]&gt;&lt;/Value&gt;
+      &lt;IsRequired&gt;False&lt;/IsRequired&gt;
+      &lt;IsActive&gt;True&lt;/IsActive&gt;
+      &lt;EnableCondition /&gt;
+      &lt;CssClass&gt;&lt;![CDATA[]]&gt;&lt;/CssClass&gt;
+      &lt;FirstCssClass&gt;&lt;![CDATA[]]&gt;&lt;/FirstCssClass&gt;
+      &lt;CssStyles&gt;&lt;![CDATA[]]&gt;&lt;/CssStyles&gt;
+      &lt;LabelCssClass&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssClass&gt;
+      &lt;LabelCssStyles&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssStyles&gt;
+      &lt;CustomValidator1 /&gt;
+      &lt;CustomValidator2 /&gt;
+      &lt;ValidationGroup /&gt;
+      &lt;GroupValidator /&gt;
+      &lt;DisableAutocomplete&gt;False&lt;/DisableAutocomplete&gt;
+      &lt;ViewOrder&gt;0&lt;/ViewOrder&gt;
+      &lt;RowIndex&gt;13&lt;/RowIndex&gt;
+      &lt;ColSpan&gt;12&lt;/ColSpan&gt;
+      &lt;ColOffset&gt;0&lt;/ColOffset&gt;
+    &lt;/Field&gt;
   &lt;/Fields&gt;
   &lt;Settings&gt;
     &lt;Title&gt;avt.Action Form Post Article - Complete&lt;/Title&gt;
@@ -815,9 +677,9 @@
       &lt;ActionType&gt;AddArticle&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
       &lt;Condition /&gt;
-      &lt;LastModified&gt;2020-10-27T12:03:15.993&lt;/LastModified&gt;
+      &lt;LastModified&gt;2020-10-27T12:05:57.02&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;3&lt;/LastModifiedBy&gt;
-      &lt;ActionData&gt;{&quot;UserId&quot;:&quot;&quot;,&quot;Title&quot;:&quot;[Title]&quot;,&quot;Subtitle&quot;:&quot;[Subtitle]&quot;,&quot;Categories&quot;:&quot;[Categories]&quot;,&quot;Summary&quot;:&quot;&amp;lt;p&amp;gt;[Summary]&amp;lt;br&amp;gt;&amp;lt;/p&amp;gt;&quot;,&quot;Description&quot;:&quot;&amp;lt;p&amp;gt;[Description]&amp;lt;br&amp;gt;&amp;lt;/p&amp;gt;&quot;,&quot;PublishDateTime&quot;:&quot;&quot;,&quot;ExpireDateTime&quot;:&quot;&quot;,&quot;FieldsTemplateName&quot;:&quot;&quot;,&quot;CustomFields&quot;:&quot;&quot;,&quot;InstanceId&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;620&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;ShowIn&quot;:{&quot;Value&quot;:{},&quot;IsExpression&quot;:false},&quot;ArticleIdToken&quot;:&quot;[ArticleId]&quot;,&quot;ArticleURL&quot;:&quot;&quot;,&quot;TitleTag&quot;:&quot;&quot;,&quot;MetaDescription&quot;:&quot;&quot;,&quot;MetaKeywords&quot;:&quot;&quot;,&quot;CategoryIds&quot;:&quot;&quot;,&quot;DetailType&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Parameters&quot;:{}},&quot;GalleryDisplayType&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Parameters&quot;:{}},&quot;DetailTypeData&quot;:&quot;&quot;,&quot;DetailTarget&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Parameters&quot;:{}},&quot;Approved&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Parameters&quot;:{}},&quot;Featured&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Parameters&quot;:{}},&quot;Tags&quot;:&quot;&quot;}&lt;/ActionData&gt;
+      &lt;ActionData&gt;{&quot;UserId&quot;:&quot;&quot;,&quot;Title&quot;:&quot;[Title]&quot;,&quot;Subtitle&quot;:&quot;[Subtitle]&quot;,&quot;Categories&quot;:&quot;[Categories]&quot;,&quot;Summary&quot;:&quot;&amp;lt;p&amp;gt;[Summary]&amp;lt;br&amp;gt;&amp;lt;/p&amp;gt;&quot;,&quot;Description&quot;:&quot;&amp;lt;p&amp;gt;[Description]&amp;lt;br&amp;gt;&amp;lt;/p&amp;gt;&quot;,&quot;PublishDateTime&quot;:&quot;[PublishDateandTime]&quot;,&quot;ExpireDateTime&quot;:&quot;[ExpireateandTime]&quot;,&quot;FieldsTemplateName&quot;:&quot;&quot;,&quot;CustomFields&quot;:&quot;&quot;,&quot;InstanceId&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;620&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;ShowIn&quot;:{&quot;Value&quot;:{},&quot;IsExpression&quot;:false},&quot;ArticleIdToken&quot;:&quot;[ArticleId]&quot;,&quot;ArticleURL&quot;:&quot;&quot;,&quot;TitleTag&quot;:&quot;&quot;,&quot;MetaDescription&quot;:&quot;&quot;,&quot;MetaKeywords&quot;:&quot;&quot;,&quot;CategoryIds&quot;:&quot;&quot;,&quot;DetailType&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Parameters&quot;:{}},&quot;GalleryDisplayType&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Parameters&quot;:{}},&quot;DetailTypeData&quot;:&quot;&quot;,&quot;DetailTarget&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Parameters&quot;:{}},&quot;Approved&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Parameters&quot;:{}},&quot;Featured&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Parameters&quot;:{}},&quot;Tags&quot;:&quot;&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;537&lt;/ModuleId&gt;
       &lt;ActionErrorMessage /&gt;
       &lt;FieldName&gt;Submit&lt;/FieldName&gt;
@@ -831,7 +693,7 @@
       &lt;ActionType&gt;AttachPhoto&lt;/ActionType&gt;
       &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
       &lt;Condition /&gt;
-      &lt;LastModified&gt;2020-10-27T12:03:16.01&lt;/LastModified&gt;
+      &lt;LastModified&gt;2020-10-27T12:05:57.033&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;3&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;ArticleId&quot;:&quot;[ArticleId]&quot;,&quot;FieldSelect&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;ArticleMainImage&quot;,&quot;IsExpression&quot;:false},&quot;MainImage&quot;:&quot;&quot;,&quot;IgnoreGallery&quot;:&quot;&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;537&lt;/ModuleId&gt;
@@ -847,7 +709,7 @@
       &lt;ActionType&gt;AttachFile&lt;/ActionType&gt;
       &lt;OrderIndex&gt;2&lt;/OrderIndex&gt;
       &lt;Condition /&gt;
-      &lt;LastModified&gt;2020-10-27T12:03:16.01&lt;/LastModified&gt;
+      &lt;LastModified&gt;2020-10-27T12:05:57.033&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;3&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;ArticleId&quot;:&quot;[ArticleId]&quot;,&quot;FieldSelect&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;ArticleFile&quot;,&quot;IsExpression&quot;:false}}&lt;/ActionData&gt;
       &lt;ModuleId&gt;537&lt;/ModuleId&gt;
@@ -863,7 +725,7 @@
       &lt;ActionType&gt;PublishArticle&lt;/ActionType&gt;
       &lt;OrderIndex&gt;3&lt;/OrderIndex&gt;
       &lt;Condition /&gt;
-      &lt;LastModified&gt;2020-10-27T12:03:16.01&lt;/LastModified&gt;
+      &lt;LastModified&gt;2020-10-27T12:05:57.033&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;3&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;ArticleID&quot;:&quot;[ArticleId]&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;537&lt;/ModuleId&gt;
