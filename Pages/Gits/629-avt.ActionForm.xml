@@ -1,10 +1,13 @@
 <module type="ActionForm" version="05.10.06.00">
+    <contentKey />
     <moduleID>629</moduleID>
     <alignment />
     <alltabs>false</alltabs>
     <border />
+    <cachemethod />
     <cachetime>0</cachetime>
     <color />
+    <containersrc />
     <displayprint>true</displayprint>
     <displaysyndicate>false</displaysyndicate>
     <displaytitle>true</displaytitle>
@@ -17,10 +20,11 @@
     <modulepermissions />
     <title>Form</title>
     <startdate>0001-01-01T00:00:00</startdate>
-    <uniqueId>b15a0699-fdda-4d1f-a0aa-68c2489aa632</uniqueId>
+    <uniqueId>1c389d12-d382-4b4f-8f5f-32b16e1455c6</uniqueId>
     <visibility>Maximized</visibility>
     <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
     <webslicettl>0</webslicettl>
+    <cultureCode />
     <modulesettings />
     <tabmodulesettings />
     <definition>Action Form</definition>
@@ -478,6 +482,22 @@
       &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;Button.Update.RefreshDetailForm&quot;}&lt;/MetadataJson&gt;
       &lt;Metadata&gt;
         &lt;PAP_InternalIdentifier&gt;Button.Update.RefreshDetailForm&lt;/PAP_InternalIdentifier&gt;
+      &lt;/Metadata&gt;
+    &lt;/ActionInfo&gt;
+    &lt;ActionInfo&gt;
+      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+      &lt;ActionType&gt;PlantAnApp.ReadEntity.0.Git&lt;/ActionType&gt;
+      &lt;OrderIndex&gt;2&lt;/OrderIndex&gt;
+      &lt;Condition&gt;[isEdit]&lt;/Condition&gt;
+      &lt;LastModified&gt;2020-10-28T15:42:45.197&lt;/LastModified&gt;
+      &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
+      &lt;ActionData&gt;{&quot;RecordId&quot;:&quot;[QueryString:GitId=]&quot;,&quot;OutputToken&quot;:&quot;original&quot;}&lt;/ActionData&gt;
+      &lt;ModuleId&gt;629&lt;/ModuleId&gt;
+      &lt;EventName&gt;preinit&lt;/EventName&gt;
+      &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;PreInit.LoadEntityValues&quot;,&quot;EntityIdentifier&quot;:&quot;Git&quot;}&lt;/MetadataJson&gt;
+      &lt;Metadata&gt;
+        &lt;PAP_InternalIdentifier&gt;PreInit.LoadEntityValues&lt;/PAP_InternalIdentifier&gt;
+        &lt;EntityIdentifier&gt;Git&lt;/EntityIdentifier&gt;
       &lt;/Metadata&gt;
     &lt;/ActionInfo&gt;
     &lt;ActionInfo&gt;
