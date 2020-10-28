@@ -1,0 +1,46 @@
+<module type="DNNHTML" version="09.07.02.00">
+    <contentKey />
+    <moduleID>536</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod />
+    <cachetime>1200</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <iswebslice>false</iswebslice>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Translator (de-CH)</rolename>
+        </permission>
+    </modulepermissions>
+    <title>Enter Title</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>804a23a1-06d3-4529-9bc6-87944f2c4f97</uniqueId>
+    <visibility>Maximized</visibility>
+    <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
+    <webslicettl>0</webslicettl>
+    <cultureCode>de-CH</cultureCode>
+    <defaultLanguageGuid>bd2776eb-a0ed-483e-8133-5cef9f2d2256</defaultLanguageGuid>
+    <modulesettings />
+    <tabmodulesettings />
+    <definition>DNN_HTML</definition>
+    <moduledefinition>Text/HTML</moduledefinition>
+</module>
