@@ -1,0 +1,76 @@
+<module type="DnnSharpSharpScheduler" version="05.10.04.00">
+    <contentKey />
+    <moduleID>555</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod>MemoryModuleCachingProvider</cachemethod>
+    <cachetime>0</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <iswebslice>false</iswebslice>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Translator (de-CH)</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>VIEW</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Citizen Developers</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>VIEW</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Admins</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Citizen Developers</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Admins</rolename>
+        </permission>
+    </modulepermissions>
+    <title>Automation Scheduler</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>5236079f-f00e-4702-8637-17d8e130b8de</uniqueId>
+    <visibility>Maximized</visibility>
+    <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
+    <webslicettl>0</webslicettl>
+    <cultureCode>de-CH</cultureCode>
+    <defaultLanguageGuid>c4b1c208-2fbc-4154-a888-3b7b9100523f</defaultLanguageGuid>
+    <modulesettings />
+    <tabmodulesettings>
+        <tabmodulesetting>
+            <settingname>AllowIndex</settingname>
+            <settingvalue>True</settingvalue>
+        </tabmodulesetting>
+    </tabmodulesettings>
+    <definition>DnnSharp.SharpScheduler</definition>
+    <moduledefinition>DnnSharp.SharpScheduler</moduledefinition>
+    <content type="DnnSharpSharpScheduler" version="05.10.04.00"><![CDATA[{&quot;Jobs&quot;:&quot;[{\&quot;Id\&quot;:1,\&quot;IsDebug\&quot;:false,\&quot;ApiId\&quot;:\&quot;ce437199633d772ab3ad1a\&quot;,\&quot;PortalId\&quot;:null,\&quot;Name\&quot;:\&quot;DO-1211\&quot;,\&quot;ContextUser\&quot;:null,\&quot;ContextPortal\&quot;:-1,\&quot;ContextUsername\&quot;:null,\&quot;ContextPage\&quot;:null,\&quot;ContextModule\&quot;:null,\&quot;IsEnabled\&quot;:true,\&quot;Actions\&quot;:[{\&quot;IsEnabled\&quot;:true,\&quot;ExecutionType\&quot;:\&quot;OnExecute\&quot;,\&quot;Id\&quot;:-1,\&quot;Description\&quot;:null,\&quot;ActionType\&quot;:\&quot;ParseJsonIntoTokens\&quot;,\&quot;OrderIndex\&quot;:0,\&quot;Condition\&quot;:\&quot;\&quot;,\&quot;LastModified\&quot;:\&quot;2020-10-26T17:34:38.59\&quot;,\&quot;LastModifiedBy\&quot;:3,\&quot;Parameters\&quot;:{\&quot;JsonString\&quot;:\&quot;[Row:ModifiedJsonData]\&quot;,\&quot;BaseTokenName\&quot;:\&quot;mydate\&quot;},\&quot;IsDeleted\&quot;:false},{\&quot;IsEnabled\&quot;:true,\&quot;ExecutionType\&quot;:\&quot;OnExecute\&quot;,\&quot;Id\&quot;:-1,\&quot;Description\&quot;:null,\&quot;ActionType\&quot;:\&quot;LogError\&quot;,\&quot;OrderIndex\&quot;:1,\&quot;Condition\&quot;:\&quot;0\&quot;,\&quot;LastModified\&quot;:\&quot;2020-10-26T17:34:38.607\&quot;,\&quot;LastModifiedBy\&quot;:3,\&quot;Parameters\&quot;:{\&quot;Message\&quot;:\&quot;JSON: [Row:ModifiedJsonData]\\n\\nDate: [mydate:2.NewValue]\&quot;},\&quot;IsDeleted\&quot;:false},{\&quot;IsEnabled\&quot;:true,\&quot;ExecutionType\&quot;:\&quot;OnExecute\&quot;,\&quot;Id\&quot;:-1,\&quot;Description\&quot;:null,\&quot;ActionType\&quot;:\&quot;RunSql\&quot;,\&quot;OrderIndex\&quot;:2,\&quot;Condition\&quot;:\&quot;\&quot;,\&quot;LastModified\&quot;:\&quot;2020-10-26T17:34:38.607\&quot;,\&quot;LastModifiedBy\&quot;:3,\&quot;Parameters\&quot;:{\&quot;ConnectionString\&quot;:\&quot;\&quot;,\&quot;QueryTimeout\&quot;:\&quot;\&quot;,\&quot;SqlQuery\&quot;:\&quot;insert into Table_dt2 (d,dt1id) \\nvalues (&#39;[mydate:2.NewValue] &#39;,&#39;[mydate:1.NewValue]&#39;)\&quot;,\&quot;BindTokens\&quot;:\&quot;\&quot;,\&quot;OutputTokenName\&quot;:\&quot;myres\&quot;,\&quot;ExtractColumns\&quot;:\&quot;\&quot;,\&quot;OnError\&quot;:[],\&quot;ShowErrors\&quot;:false},\&quot;IsDeleted\&quot;:false}],\&quot;OnErrorActions\&quot;:[],\&quot;Triggers\&quot;:[{\&quot;Id\&quot;:-1,\&quot;IsEnabled\&quot;:true,\&quot;TriggerDefId\&quot;:\&quot;OnDbInsert\&quot;,\&quot;LastModified\&quot;:\&quot;2020-10-26T17:34:38.59\&quot;,\&quot;LastModifiedBy\&quot;:3,\&quot;ParametersStr\&quot;:\&quot;{\\\&quot;TableName\\\&quot;:{\\\&quot;Expression\\\&quot;:\\\&quot;\\\&quot;,\\\&quot;Value\\\&quot;:\\\&quot;dbo.Table_dt1\\\&quot;,\\\&quot;IsExpression\\\&quot;:false,\\\&quot;Parameters\\\&quot;:{}}}\&quot;,\&quot;IsDeleted\&quot;:false}],\&quot;NextRunUtc\&quot;:null,\&quot;LastRun\&quot;:{\&quot;Id\&quot;:243,\&quot;JobId\&quot;:1,\&quot;DateStart\&quot;:\&quot;2020-10-26T18:10:54.1755061+00:00\&quot;,\&quot;DateEnd\&quot;:\&quot;2020-10-26T18:10:54.1884014+00:00\&quot;,\&quot;TriggerId\&quot;:1,\&quot;Status\&quot;:\&quot;Success\&quot;,\&quot;JobDataJson\&quot;:\&quot;{}\&quot;,\&quot;JobData\&quot;:{},\&quot;IsDeleted\&quot;:false},\&quot;LastJobData\&quot;:{},\&quot;LastModified\&quot;:\&quot;2020-10-26T17:34:38.59\&quot;,\&quot;LastModifiedBy\&quot;:3,\&quot;ModuleId\&quot;:0,\&quot;IsDeleted\&quot;:false},{\&quot;Id\&quot;:2,\&quot;IsDebug\&quot;:false,\&quot;ApiId\&quot;:\&quot;22448cbcdbd91d28a3ce4d\&quot;,\&quot;PortalId\&quot;:null,\&quot;Name\&quot;:\&quot;DO-1211 - insert\&quot;,\&quot;ContextUser\&quot;:null,\&quot;ContextPortal\&quot;:-1,\&quot;ContextUsername\&quot;:null,\&quot;ContextPage\&quot;:null,\&quot;ContextModule\&quot;:null,\&quot;IsEnabled\&quot;:false,\&quot;Actions\&quot;:[{\&quot;IsEnabled\&quot;:true,\&quot;ExecutionType\&quot;:\&quot;OnExecute\&quot;,\&quot;Id\&quot;:-1,\&quot;Description\&quot;:null,\&quot;ActionType\&quot;:\&quot;RunSql\&quot;,\&quot;OrderIndex\&quot;:0,\&quot;Condition\&quot;:null,\&quot;LastModified\&quot;:\&quot;2020-10-26T18:10:54.157\&quot;,\&quot;LastModifiedBy\&quot;:3,\&quot;Parameters\&quot;:{\&quot;ConnectionString\&quot;:\&quot;\&quot;,\&quot;QueryTimeout\&quot;:\&quot;\&quot;,\&quot;SqlQuery\&quot;:\&quot;insert into Table_dt1 (d) \\nvalues(getdate())\&quot;,\&quot;BindTokens\&quot;:\&quot;\&quot;,\&quot;OutputTokenName\&quot;:\&quot;\&quot;,\&quot;ExtractColumns\&quot;:\&quot;\&quot;,\&quot;OnError\&quot;:[],\&quot;ShowErrors\&quot;:false},\&quot;IsDeleted\&quot;:false}],\&quot;OnErrorActions\&quot;:[],\&quot;Triggers\&quot;:[{\&quot;Id\&quot;:-1,\&quot;IsEnabled\&quot;:true,\&quot;TriggerDefId\&quot;:\&quot;RepeatInterval\&quot;,\&quot;LastModified\&quot;:\&quot;2020-10-26T18:10:54.157\&quot;,\&quot;LastModifiedBy\&quot;:3,\&quot;ParametersStr\&quot;:\&quot;{\\\&quot;Start\\\&quot;:{\\\&quot;Date\\\&quot;:\\\&quot;\\\&quot;,\\\&quot;Time\\\&quot;:\\\&quot;04:42:00 PM\\\&quot;},\\\&quot;Interval\\\&quot;:{\\\&quot;Qty\\\&quot;:\\\&quot;2\\\&quot;,\\\&quot;Unit\\\&quot;:{\\\&quot;Value\\\&quot;:\\\&quot;Seconds\\\&quot;,\\\&quot;IsExpression\\\&quot;:false,\\\&quot;Parameters\\\&quot;:{}}},\\\&quot;SkipIfRunning\\\&quot;:\\\&quot;\\\&quot;,\\\&quot;OnMissfire\\\&quot;:{\\\&quot;Expression\\\&quot;:\\\&quot;\\\&quot;,\\\&quot;Value\\\&quot;:\\\&quot;\\\&quot;,\\\&quot;IsExpression\\\&quot;:false,\\\&quot;Parameters\\\&quot;:{}}}\&quot;,\&quot;IsDeleted\&quot;:false}],\&quot;NextRunUtc\&quot;:null,\&quot;LastRun\&quot;:{\&quot;Id\&quot;:242,\&quot;JobId\&quot;:2,\&quot;DateStart\&quot;:\&quot;2020-10-26T18:10:54.0009048+00:00\&quot;,\&quot;DateEnd\&quot;:\&quot;2020-10-26T18:10:54.0009048+00:00\&quot;,\&quot;TriggerId\&quot;:2,\&quot;Status\&quot;:\&quot;Success\&quot;,\&quot;JobDataJson\&quot;:\&quot;{}\&quot;,\&quot;JobData\&quot;:{},\&quot;IsDeleted\&quot;:false},\&quot;LastJobData\&quot;:{},\&quot;LastModified\&quot;:\&quot;2020-10-26T18:10:54.157\&quot;,\&quot;LastModifiedBy\&quot;:3,\&quot;ModuleId\&quot;:0,\&quot;IsDeleted\&quot;:false}]&quot;}]]></content>
+</module>
