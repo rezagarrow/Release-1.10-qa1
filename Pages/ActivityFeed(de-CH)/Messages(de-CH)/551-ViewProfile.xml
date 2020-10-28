@@ -1,0 +1,68 @@
+<module type="ViewProfile" version="09.03.02">
+    <contentKey />
+    <moduleID>551</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod>MemoryModuleCachingProvider</cachemethod>
+    <cachetime>0</cachetime>
+    <color />
+    <containersrc>[G]Containers/PlantAnApp/CardNoTitle.ascx</containersrc>
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <iswebslice>false</iswebslice>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Translator (de-CH)</rolename>
+        </permission>
+    </modulepermissions>
+    <title>ViewProfile</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>b8043066-ace3-4fed-9d0c-008852373423</uniqueId>
+    <visibility>Maximized</visibility>
+    <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
+    <webslicettl>0</webslicettl>
+    <cultureCode>de-CH</cultureCode>
+    <defaultLanguageGuid>48fe1fa6-e6c6-4b40-b406-d6d34488760b</defaultLanguageGuid>
+    <modulesettings />
+    <tabmodulesettings>
+        <tabmodulesetting>
+            <settingname>ProfileTemplate</settingname>
+            <settingvalue>&lt;div id="UserProfileImg"&gt;
+                    &lt;span&gt;&lt;img alt="Profile Avatar" class="ProfilePhoto" width="120" height="120" src="[PROFILE:PHOTO]" /&gt;&lt;/span&gt;
+                    &lt;/div&gt;
+                    &lt;div class="UserProfileControls"&gt;
+                    &lt;ul&gt;
+                    &lt;li&gt;[HYPERLINK:EDITPROFILE]&lt;/li&gt;
+                    &lt;li&gt;[HYPERLINK:MYACCOUNT]&lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;/div&gt;
+                  </settingvalue>
+        </tabmodulesetting>
+        <tabmodulesetting>
+            <settingname>hideadminborder</settingname>
+            <settingvalue>False</settingvalue>
+        </tabmodulesetting>
+        <tabmodulesetting>
+            <settingname>IncludeButton</settingname>
+            <settingvalue>False</settingvalue>
+        </tabmodulesetting>
+    </tabmodulesettings>
+    <definition>ViewProfile</definition>
+    <moduledefinition>ViewProfile</moduledefinition>
+</module>
