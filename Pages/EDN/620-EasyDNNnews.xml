@@ -1,0 +1,39 @@
+<module type="EasyDNNnews" version="10.08.00.00">
+    <contentKey />
+    <moduleID>620</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod />
+    <cachetime>0</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <iswebslice>false</iswebslice>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+    </modulepermissions>
+    <title>EasyDNNNews</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>fb85fbd7-4047-475b-b623-f636b1af2f9b</uniqueId>
+    <visibility>Maximized</visibility>
+    <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
+    <webslicettl>0</webslicettl>
+    <cultureCode>de-CH</cultureCode>
+    <modulesettings />
+    <tabmodulesettings />
+    <definition>EasyDNNnews</definition>
+    <moduledefinition>EasyDNNNews</moduledefinition>
+</module>
