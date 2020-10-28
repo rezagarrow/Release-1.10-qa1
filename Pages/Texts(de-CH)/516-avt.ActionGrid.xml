@@ -1,0 +1,47 @@
+<module type="ActionGrid" version="05.10.04.00">
+    <contentKey />
+    <moduleID>516</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod />
+    <cachetime>0</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>true</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <iswebslice>false</iswebslice>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Translator (de-CH)</rolename>
+        </permission>
+    </modulepermissions>
+    <title>Listing</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>2e2b6a74-2a46-4af4-b606-2a64319dcbaa</uniqueId>
+    <visibility>Maximized</visibility>
+    <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
+    <webslicettl>0</webslicettl>
+    <cultureCode>de-CH</cultureCode>
+    <defaultLanguageGuid>a6258683-0337-4640-9ee2-17e0b66536a1</defaultLanguageGuid>
+    <modulesettings />
+    <tabmodulesettings />
+    <definition>Action Grid</definition>
+    <moduledefinition>avt.ActionGrid</moduledefinition>
+    <content type="ActionGrid" version="05.10.04.00"><![CDATA[&lt;ActionGrid /&gt;]]></content>
+</module>
