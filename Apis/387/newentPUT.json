@@ -3,7 +3,7 @@
   "Description": "Updates the information of the provided newent record",
   "HttpMethod": "PUT",
   "IsEnabled": true,
-  "OrderIndex": 87,
+  "OrderIndex": 99,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -93,6 +93,15 @@
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": []
+    },
+    {
+      "Name": "LargeText",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 8,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -107,7 +116,8 @@
         "localdatetime": "[localdatetime]",
         "Int": "[Int]",
         "Dec": "[Dec]",
-        "Link": "[Link]"
+        "Link": "[Link]",
+        "LargeText": "[LargeText]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
