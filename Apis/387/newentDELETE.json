@@ -3,7 +3,7 @@
   "Description": "Deletes the provided newent record",
   "HttpMethod": "DELETE",
   "IsEnabled": true,
-  "OrderIndex": 88,
+  "OrderIndex": 100,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
