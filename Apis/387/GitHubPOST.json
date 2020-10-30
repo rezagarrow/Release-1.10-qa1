@@ -22,6 +22,24 @@
           "OrderIndex": 0
         }
       ]
+    },
+    {
+      "Name": "Foo",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 1,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "Bar",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 2,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -30,7 +48,9 @@
       "OrderIndex": 0,
       "Parameters": {
         "OutputToken": "CreatedRecordId",
-        "Test": "[Test]"
+        "Test": "[Test]",
+        "Foo": "[Foo]",
+        "Bar": "[Bar]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -66,6 +86,14 @@
           {
             "name": "Test",
             "value": "[CreatedRecord:Test]"
+          },
+          {
+            "name": "Foo",
+            "value": "[CreatedRecord:Foo]"
+          },
+          {
+            "name": "Bar",
+            "value": "[CreatedRecord:Bar]"
           }
         ],
         "Headers": [
