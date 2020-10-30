@@ -19,5 +19,47 @@
     "IsSearchable": true,
     "IsFilterable": false,
     "IsSortable": false
+  },
+  {
+    "Id": 57,
+    "EntityVersionId": 19,
+    "Name": "Foo",
+    "Type": {
+      "Id": "Decimal",
+      "Name": "Number (Decimal)",
+      "InputType": {
+        "Id": "Decimal",
+        "Name": "Number (Decimal)",
+        "ValueType": "Decimal",
+        "Length": 4,
+        "Icon": "looks_one"
+      }
+    },
+    "IsDeleted": false,
+    "IsRequired": false,
+    "IsSearchable": false,
+    "IsFilterable": false,
+    "IsSortable": false
+  },
+  {
+    "Id": 58,
+    "EntityVersionId": 19,
+    "Name": "Bar",
+    "Type": {
+      "Id": "Integer",
+      "Name": "Number (Integer)",
+      "InputType": {
+        "Id": "Integer",
+        "Name": "Number (Integer)",
+        "ValueType": "Integer",
+        "Length": 4,
+        "Icon": "looks_one"
+      }
+    },
+    "IsDeleted": false,
+    "IsRequired": false,
+    "IsSearchable": false,
+    "IsFilterable": false,
+    "IsSortable": false
   }
 ]

@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "Id": 3,
+    "EntityVersionId": 3,
+    "RelationName": "Docs"
+  },
+  {
+    "Id": 4,
+    "EntityVersionId": 14,
+    "RelationName": "Apointment"
+  }
+]
