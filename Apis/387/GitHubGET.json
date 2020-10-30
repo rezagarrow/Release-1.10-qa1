@@ -52,6 +52,14 @@
           {
             "name": "Test",
             "value": "[Record:Test]"
+          },
+          {
+            "name": "Foo",
+            "value": "[Record:Foo]"
+          },
+          {
+            "name": "Bar",
+            "value": "[Record:Bar]"
           }
         ],
         "Headers": []
