@@ -3,7 +3,7 @@
   "Description": "Creates a new record of type Appointment",
   "HttpMethod": "POST",
   "IsEnabled": true,
-  "OrderIndex": 65,
+  "OrderIndex": 105,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -113,7 +113,7 @@
         "Headers": [
           {
             "name": "Location",
-            "value": "http://release110-qa1.apps.plantanapp.com/api/Appointment?recordId=[CreatedRecordId]"
+            "value": "http://release110-qa1.apps.plantanapp.com/en-us/api/Appointment?recordId=[CreatedRecordId]"
           }
         ]
       },
