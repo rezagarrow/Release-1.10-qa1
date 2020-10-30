@@ -1,0 +1,11 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 56,
+  "Id": 19,
+  "VersionId": 19,
+  "Name": "GitHub",
+  "PluralName": "GitHubs",
+  "Icon": "table",
+  "Type": "UserCreated"
+}
