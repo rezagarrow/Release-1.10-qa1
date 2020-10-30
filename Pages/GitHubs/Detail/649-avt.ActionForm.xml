@@ -1,10 +1,13 @@
 <module type="ActionForm" version="05.10.07.00">
+    <contentKey />
     <moduleID>649</moduleID>
     <alignment />
     <alltabs>false</alltabs>
     <border />
+    <cachemethod />
     <cachetime>0</cachetime>
     <color />
+    <containersrc />
     <displayprint>true</displayprint>
     <displaysyndicate>false</displaysyndicate>
     <displaytitle>true</displaytitle>
@@ -17,10 +20,11 @@
     <modulepermissions />
     <title>Apointment Add Form</title>
     <startdate>0001-01-01T00:00:00</startdate>
-    <uniqueId>f0e68ff0-cbdc-4a68-856e-b25c9ce578f4</uniqueId>
+    <uniqueId>ca8c9352-17d8-448b-8f9c-9c1c67ca3995</uniqueId>
     <visibility>Maximized</visibility>
     <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
     <webslicettl>0</webslicettl>
+    <cultureCode />
     <modulesettings />
     <tabmodulesettings />
     <definition>Action Form</definition>
