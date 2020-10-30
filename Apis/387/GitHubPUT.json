@@ -39,6 +39,24 @@
           "OrderIndex": 0
         }
       ]
+    },
+    {
+      "Name": "Foo",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 2,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "Bar",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 3,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -47,7 +65,9 @@
       "OrderIndex": 0,
       "Parameters": {
         "RecordId": "[RecordId]",
-        "Test": "[Test]"
+        "Test": "[Test]",
+        "Foo": "[Foo]",
+        "Bar": "[Bar]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
