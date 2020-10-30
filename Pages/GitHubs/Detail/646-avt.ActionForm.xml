@@ -1,10 +1,13 @@
 <module type="ActionForm" version="05.10.07.00">
+    <contentKey />
     <moduleID>646</moduleID>
     <alignment />
     <alltabs>false</alltabs>
     <border />
+    <cachemethod />
     <cachetime>0</cachetime>
     <color />
+    <containersrc />
     <displayprint>true</displayprint>
     <displaysyndicate>false</displaysyndicate>
     <displaytitle>true</displaytitle>
@@ -17,10 +20,11 @@
     <modulepermissions />
     <title>Docs Add Existing Form</title>
     <startdate>0001-01-01T00:00:00</startdate>
-    <uniqueId>8d38ae6c-cd93-4640-8cdf-f1c514554c5b</uniqueId>
+    <uniqueId>fd254078-838e-4941-9ada-508877f683a7</uniqueId>
     <visibility>Maximized</visibility>
     <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
     <webslicettl>0</webslicettl>
+    <cultureCode />
     <modulesettings />
     <tabmodulesettings />
     <definition>Action Form</definition>
