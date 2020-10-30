@@ -3,7 +3,7 @@
   "Description": "Deletes the provided Appointment record",
   "HttpMethod": "DELETE",
   "IsEnabled": true,
-  "OrderIndex": 68,
+  "OrderIndex": 108,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
