@@ -56,8 +56,8 @@
       &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
       &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
       &lt;InputType&gt;open-text-large&lt;/InputType&gt;
-      &lt;InputData&gt;{&quot;Value&quot;:&quot;&quot;,&quot;Rows&quot;:&quot;10&quot;,&quot;SaveToReport&quot;:false,&quot;AllowTokens&quot;:&quot;&quot;,&quot;SecureInput&quot;:true}&lt;/InputData&gt;
-      &lt;Rows&gt;10&lt;/Rows&gt;
+      &lt;InputData&gt;{&quot;Value&quot;:&quot;&quot;,&quot;Rows&quot;:&quot;11&quot;,&quot;SaveToReport&quot;:false,&quot;AllowTokens&quot;:&quot;&quot;,&quot;SecureInput&quot;:true}&lt;/InputData&gt;
+      &lt;Rows&gt;11&lt;/Rows&gt;
       &lt;SaveToReport&gt;False&lt;/SaveToReport&gt;
       &lt;AllowTokens /&gt;
       &lt;SecureInput&gt;True&lt;/SecureInput&gt;
