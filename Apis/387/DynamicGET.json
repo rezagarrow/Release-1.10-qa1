@@ -54,12 +54,12 @@
             "value": "[Record:Name]"
           },
           {
-            "name": "Radio",
-            "value": "[Record:Radio]"
-          },
-          {
             "name": "Dropdown",
             "value": "[Record:Dropdown]"
+          },
+          {
+            "name": "RadioButtons",
+            "value": "[Record:RadioButtons]"
           }
         ],
         "Headers": []
