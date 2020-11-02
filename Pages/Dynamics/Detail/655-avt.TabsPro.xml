@@ -1,10 +1,13 @@
 <module type="avtTabsPro" version="05.10.02.00">
+    <contentKey />
     <moduleID>655</moduleID>
     <alignment />
     <alltabs>false</alltabs>
     <border />
+    <cachemethod />
     <cachetime>0</cachetime>
     <color />
+    <containersrc />
     <displayprint>true</displayprint>
     <displaysyndicate>false</displaysyndicate>
     <displaytitle>true</displaytitle>
@@ -17,10 +20,11 @@
     <modulepermissions />
     <title>Tabs</title>
     <startdate>0001-01-01T00:00:00</startdate>
-    <uniqueId>f63cf54a-ae71-48a0-bab8-d8adb34459a5</uniqueId>
+    <uniqueId>b8e00ccd-082a-4464-a7ee-e9b6493bad6c</uniqueId>
     <visibility>Maximized</visibility>
     <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
     <webslicettl>0</webslicettl>
+    <cultureCode />
     <modulesettings />
     <tabmodulesettings />
     <definition>avt.TabsPro</definition>
@@ -48,7 +52,7 @@
   &lt;IncludeBootstrap&gt;True&lt;/IncludeBootstrap&gt;
   &lt;IncludeFontAwesome&gt;True&lt;/IncludeFontAwesome&gt;
   &lt;Delay&gt;1&lt;/Delay&gt;
-  &lt;AppendIds&gt;True&lt;/AppendIds&gt;
+  &lt;AppendIds&gt;False&lt;/AppendIds&gt;
   &lt;AccordionOnMobile&gt;True&lt;/AccordionOnMobile&gt;
   &lt;ShowEmptyTabs&gt;False&lt;/ShowEmptyTabs&gt;
   &lt;Modal_Display&gt;False&lt;/Modal_Display&gt;
@@ -60,6 +64,34 @@
   &lt;ShowLoading&gt;False&lt;/ShowLoading&gt;
   &lt;WidgetProvider&gt;{&quot;name&quot;:&quot;WidgetProvider&quot;,&quot;value&quot;:&quot;Bootstrap&quot;,&quot;inherit&quot;:true,&quot;canOverride&quot;:true}&lt;/WidgetProvider&gt;
   &lt;OpenAction&gt;{&quot;name&quot;:&quot;OpenAction&quot;,&quot;value&quot;:&quot;Click&quot;,&quot;inherit&quot;:true,&quot;canOverride&quot;:true}&lt;/OpenAction&gt;
-  &lt;Tabs /&gt;
+  &lt;Tabs&gt;
+    &lt;Tab&gt;
+      &lt;Title&gt;Details&lt;/Title&gt;
+      &lt;RefName /&gt;
+      &lt;CssClass /&gt;
+      &lt;EnableCondition /&gt;
+      &lt;ShowCondition /&gt;
+      &lt;IconUrl /&gt;
+      &lt;IconClass /&gt;
+      &lt;DisplayAccordion&gt;False&lt;/DisplayAccordion&gt;
+      &lt;ViewOrder&gt;0&lt;/ViewOrder&gt;
+      &lt;TabUrl /&gt;
+      &lt;StackDirection&gt;Vertical&lt;/StackDirection&gt;
+      &lt;DefaultTab&gt;True&lt;/DefaultTab&gt;
+      &lt;Reevaluate&gt;False&lt;/Reevaluate&gt;
+      &lt;UseModuleTitles&gt;True&lt;/UseModuleTitles&gt;
+      &lt;Localization&gt;
+        &lt;en-US&gt;Details&lt;/en-US&gt;
+      &lt;/Localization&gt;
+      &lt;Modules&gt;
+        &lt;Module&gt;
+          &lt;ModuleId&gt;654&lt;/ModuleId&gt;
+          &lt;ModuleTitle&gt;View Form&lt;/ModuleTitle&gt;
+          &lt;ModuleOrder&gt;1&lt;/ModuleOrder&gt;
+          &lt;DisplayTitle&gt;False&lt;/DisplayTitle&gt;
+        &lt;/Module&gt;
+      &lt;/Modules&gt;
+    &lt;/Tab&gt;
+  &lt;/Tabs&gt;
 &lt;/TabsPro&gt;]]></content>
 </module>
