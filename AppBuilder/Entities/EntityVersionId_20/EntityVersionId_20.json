@@ -1,0 +1,11 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 59,
+  "Id": 20,
+  "VersionId": 20,
+  "Name": "Dynamic",
+  "PluralName": "Dynamics",
+  "Icon": "table",
+  "Type": "UserCreated"
+}
