@@ -41,7 +41,7 @@
       ]
     },
     {
-      "Name": "Radio",
+      "Name": "Dropdown",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 2,
@@ -50,7 +50,7 @@
       "Validations": []
     },
     {
-      "Name": "Dropdown",
+      "Name": "RadioButtons",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 3,
@@ -66,8 +66,8 @@
       "Parameters": {
         "RecordId": "[RecordId]",
         "Name": "[Name]",
-        "Radio": "[Radio]",
-        "Dropdown": "[Dropdown]"
+        "Dropdown": "[Dropdown]",
+        "RadioButtons": "[RadioButtons]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
