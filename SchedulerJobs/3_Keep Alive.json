@@ -1,0 +1,36 @@
+{
+  "ApiId": "8c4047bea85376850b3ed6",
+  "ContextPortal": 0,
+  "IsDebug": false,
+  "IsEnabled": true,
+  "Name": "Keep Alive",
+  "Triggers": [
+    {
+      "IsEnabled": true,
+      "TriggerDefId": "RepeatInterval",
+      "Parameters": {
+        "Start": {
+          "Date": "",
+          "Time": "12:00:00AM"
+        },
+        "Interval": {
+          "Qty": "5",
+          "Unit": {
+            "Value": "Minutes",
+            "IsExpression": false,
+            "Parameters": {}
+          }
+        },
+        "SkipIfRunning": "",
+        "OnMissfire": {
+          "Expression": "",
+          "Value": "FireNow",
+          "IsExpression": false,
+          "Parameters": {}
+        }
+      }
+    }
+  ],
+  "Actions": [],
+  "OnErrorActions": []
+}
