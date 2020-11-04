@@ -50,16 +50,16 @@
             "value": "[RecordId]"
           },
           {
+            "name": "DueDate",
+            "value": "[Record:DueDate]"
+          },
+          {
             "name": "Name",
             "value": "[Record:Name]"
           },
           {
             "name": "Description",
             "value": "[Record:Description]"
-          },
-          {
-            "name": "DueDate",
-            "value": "[Record:DueDate]"
           },
           {
             "name": "Owner",
