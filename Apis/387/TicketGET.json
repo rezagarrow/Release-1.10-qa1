@@ -54,16 +54,16 @@
             "value": "[Record:Name]"
           },
           {
+            "name": "Owner",
+            "value": "[Record:Owner]"
+          },
+          {
             "name": "Type",
             "value": "[Record:Type]"
           },
           {
             "name": "Status",
             "value": "[Record:Status]"
-          },
-          {
-            "name": "Owner",
-            "value": "[Record:Owner]"
           }
         ],
         "Headers": []
