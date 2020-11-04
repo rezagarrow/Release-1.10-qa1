@@ -24,7 +24,7 @@
       ]
     },
     {
-      "Name": "Type",
+      "Name": "Owner",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 1,
@@ -33,7 +33,7 @@
       "Validations": []
     },
     {
-      "Name": "Status",
+      "Name": "Type",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 2,
@@ -42,7 +42,7 @@
       "Validations": []
     },
     {
-      "Name": "Owner",
+      "Name": "Status",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 3,
@@ -58,9 +58,9 @@
       "Parameters": {
         "OutputToken": "CreatedRecordId",
         "Name": "[Name]",
+        "Owner": "[Owner]",
         "Type": "[Type]",
-        "Status": "[Status]",
-        "Owner": "[Owner]"
+        "Status": "[Status]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -98,16 +98,16 @@
             "value": "[CreatedRecord:Name]"
           },
           {
+            "name": "Owner",
+            "value": "[CreatedRecord:Owner]"
+          },
+          {
             "name": "Type",
             "value": "[CreatedRecord:Type]"
           },
           {
             "name": "Status",
             "value": "[CreatedRecord:Status]"
-          },
-          {
-            "name": "Owner",
-            "value": "[CreatedRecord:Owner]"
           }
         ],
         "Headers": [
