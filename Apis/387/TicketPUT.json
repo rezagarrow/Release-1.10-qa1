@@ -41,7 +41,7 @@
       ]
     },
     {
-      "Name": "Type",
+      "Name": "Owner",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 2,
@@ -50,7 +50,7 @@
       "Validations": []
     },
     {
-      "Name": "Status",
+      "Name": "Type",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 3,
@@ -59,7 +59,7 @@
       "Validations": []
     },
     {
-      "Name": "Owner",
+      "Name": "Status",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 4,
@@ -75,9 +75,9 @@
       "Parameters": {
         "RecordId": "[RecordId]",
         "Name": "[Name]",
+        "Owner": "[Owner]",
         "Type": "[Type]",
-        "Status": "[Status]",
-        "Owner": "[Owner]"
+        "Status": "[Status]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
