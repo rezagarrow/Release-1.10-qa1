@@ -1,4 +1,4 @@
-<module type="ActionForm" version="05.10.06.00">
+<module type="ActionForm" version="05.10.10.00">
     <contentKey />
     <moduleID>423</moduleID>
     <alignment />
@@ -7,7 +7,6 @@
     <cachemethod />
     <cachetime>0</cachetime>
     <color />
-    <containersrc />
     <displayprint>true</displayprint>
     <displaysyndicate>false</displaysyndicate>
     <displaytitle>true</displaytitle>
@@ -29,7 +28,7 @@
     <tabmodulesettings />
     <definition>Action Form</definition>
     <moduledefinition>avt.Action Form</moduledefinition>
-    <content type="ActionForm" version="05.10.06.00"><![CDATA[&lt;ActionForm&gt;
+    <content type="ActionForm" version="05.10.10.00"><![CDATA[&lt;ActionForm&gt;
   &lt;Fields&gt;
     &lt;Field&gt;
       &lt;Id&gt;&lt;![CDATA[55]]&gt;&lt;/Id&gt;
@@ -433,7 +432,7 @@
     &lt;Title&gt;Form&lt;/Title&gt;
     &lt;CssName&gt;form&lt;/CssName&gt;
     &lt;Version&gt;5.10.0&lt;/Version&gt;
-    &lt;Build&gt;5.10.6&lt;/Build&gt;
+    &lt;Build&gt;5.10.10&lt;/Build&gt;
     &lt;CultureCode&gt;en&lt;/CultureCode&gt;
     &lt;RenderContext&gt;Form&lt;/RenderContext&gt;
     &lt;FrontEndTemplate /&gt;
@@ -450,7 +449,7 @@
     &lt;FieldSpacing&gt;normal&lt;/FieldSpacing&gt;
     &lt;OpenFormMode&gt;Manual&lt;/OpenFormMode&gt;
     &lt;ModuleId&gt;423&lt;/ModuleId&gt;
-    &lt;ModuleVersion&gt;5.10.6&lt;/ModuleVersion&gt;
+    &lt;ModuleVersion&gt;5.10.10&lt;/ModuleVersion&gt;
     &lt;TabId&gt;54&lt;/TabId&gt;
     &lt;ModuleBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm&lt;/ModuleBaseUrl&gt;
     &lt;ResourceBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm/static&lt;/ResourceBaseUrl&gt;
@@ -555,35 +554,18 @@
     &lt;/ActionInfo&gt;
     &lt;ActionInfo&gt;
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
-      &lt;Description&gt;Check if in edit mode&lt;/Description&gt;
-      &lt;ActionType&gt;InjectData&lt;/ActionType&gt;
+      &lt;ActionType&gt;PlantAnApp.CreateEntity.0.Ticket&lt;/ActionType&gt;
       &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
-      &lt;Condition&gt;!string.IsNullOrWhiteSpace([QueryString:TicketId=])&lt;/Condition&gt;
-      &lt;LastModified&gt;2020-10-26T20:57:55.32&lt;/LastModified&gt;
+      &lt;LastModified&gt;2020-10-26T20:57:55.24&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
-      &lt;ActionData&gt;{&quot;Data&quot;:[{&quot;name&quot;:&quot;isEdit&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;name&quot;:&quot;popupTitle&quot;,&quot;value&quot;:&quot;Edit Ticket&quot;}]}&lt;/ActionData&gt;
+      &lt;ActionData&gt;{&quot;OutputToken&quot;:&quot;NewTicketId&quot;,&quot;Name&quot;:&quot;[p_Name]&quot;,&quot;Type&quot;:&quot;[r_TypeId]&quot;,&quot;Status&quot;:&quot;[r_StatusId]&quot;,&quot;Owner&quot;:&quot;[r_OwnerId]&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;423&lt;/ModuleId&gt;
-      &lt;EventName&gt;preinit&lt;/EventName&gt;
-      &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;PreInit.CheckEditMode&quot;,&quot;PAP_GeneratedCondition&quot;:&quot;!string.IsNullOrWhiteSpace([QueryString:TicketId=])&quot;}&lt;/MetadataJson&gt;
+      &lt;FieldName&gt;Add&lt;/FieldName&gt;
+      &lt;EventName&gt;click&lt;/EventName&gt;
+      &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;Button.Add.CreateEntity&quot;,&quot;EntityIdentifier&quot;:&quot;Ticket&quot;}&lt;/MetadataJson&gt;
       &lt;Metadata&gt;
-        &lt;PAP_InternalIdentifier&gt;PreInit.CheckEditMode&lt;/PAP_InternalIdentifier&gt;
-        &lt;PAP_GeneratedCondition&gt;!string.IsNullOrWhiteSpace([QueryString:TicketId=])&lt;/PAP_GeneratedCondition&gt;
-      &lt;/Metadata&gt;
-    &lt;/ActionInfo&gt;
-    &lt;ActionInfo&gt;
-      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
-      &lt;ActionType&gt;ShowError&lt;/ActionType&gt;
-      &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
-      &lt;Condition&gt;[h_isEdit] &amp;amp;&amp;amp; ![HasRole:5] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:7]&lt;/Condition&gt;
-      &lt;LastModified&gt;2020-10-26T20:57:55.32&lt;/LastModified&gt;
-      &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
-      &lt;ActionData&gt;{&quot;Message&quot;:&quot;You are not allowed to edit items.&quot;}&lt;/ActionData&gt;
-      &lt;ModuleId&gt;423&lt;/ModuleId&gt;
-      &lt;EventName&gt;init&lt;/EventName&gt;
-      &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;Action.CheckEditPermissions&quot;,&quot;PAP_GeneratedCondition&quot;:&quot;[h_isEdit] &amp;amp;&amp;amp; ![HasRole:5] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:7]&quot;}&lt;/MetadataJson&gt;
-      &lt;Metadata&gt;
-        &lt;PAP_InternalIdentifier&gt;Action.CheckEditPermissions&lt;/PAP_InternalIdentifier&gt;
-        &lt;PAP_GeneratedCondition&gt;[h_isEdit] &amp;amp;&amp;amp; ![HasRole:5] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:7]&lt;/PAP_GeneratedCondition&gt;
+        &lt;PAP_InternalIdentifier&gt;Button.Add.CreateEntity&lt;/PAP_InternalIdentifier&gt;
+        &lt;EntityIdentifier&gt;Ticket&lt;/EntityIdentifier&gt;
       &lt;/Metadata&gt;
     &lt;/ActionInfo&gt;
     &lt;ActionInfo&gt;
@@ -604,18 +586,35 @@
     &lt;/ActionInfo&gt;
     &lt;ActionInfo&gt;
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
-      &lt;ActionType&gt;PlantAnApp.CreateEntity.0.Ticket&lt;/ActionType&gt;
+      &lt;ActionType&gt;ShowError&lt;/ActionType&gt;
       &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2020-10-26T20:57:55.24&lt;/LastModified&gt;
+      &lt;Condition&gt;[h_isEdit] &amp;amp;&amp;amp; ![HasRole:5] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:7]&lt;/Condition&gt;
+      &lt;LastModified&gt;2020-10-26T20:57:55.32&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
-      &lt;ActionData&gt;{&quot;OutputToken&quot;:&quot;NewTicketId&quot;,&quot;Name&quot;:&quot;[p_Name]&quot;,&quot;Type&quot;:&quot;[r_TypeId]&quot;,&quot;Status&quot;:&quot;[r_StatusId]&quot;,&quot;Owner&quot;:&quot;[r_OwnerId]&quot;}&lt;/ActionData&gt;
+      &lt;ActionData&gt;{&quot;Message&quot;:&quot;You are not allowed to edit items.&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;423&lt;/ModuleId&gt;
-      &lt;FieldName&gt;Add&lt;/FieldName&gt;
-      &lt;EventName&gt;click&lt;/EventName&gt;
-      &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;Button.Add.CreateEntity&quot;,&quot;EntityIdentifier&quot;:&quot;Ticket&quot;}&lt;/MetadataJson&gt;
+      &lt;EventName&gt;init&lt;/EventName&gt;
+      &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;Action.CheckEditPermissions&quot;,&quot;PAP_GeneratedCondition&quot;:&quot;[h_isEdit] &amp;amp;&amp;amp; ![HasRole:5] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:7]&quot;}&lt;/MetadataJson&gt;
       &lt;Metadata&gt;
-        &lt;PAP_InternalIdentifier&gt;Button.Add.CreateEntity&lt;/PAP_InternalIdentifier&gt;
-        &lt;EntityIdentifier&gt;Ticket&lt;/EntityIdentifier&gt;
+        &lt;PAP_InternalIdentifier&gt;Action.CheckEditPermissions&lt;/PAP_InternalIdentifier&gt;
+        &lt;PAP_GeneratedCondition&gt;[h_isEdit] &amp;amp;&amp;amp; ![HasRole:5] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:7]&lt;/PAP_GeneratedCondition&gt;
+      &lt;/Metadata&gt;
+    &lt;/ActionInfo&gt;
+    &lt;ActionInfo&gt;
+      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+      &lt;Description&gt;Check if in edit mode&lt;/Description&gt;
+      &lt;ActionType&gt;InjectData&lt;/ActionType&gt;
+      &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
+      &lt;Condition&gt;!string.IsNullOrWhiteSpace([QueryString:TicketId=])&lt;/Condition&gt;
+      &lt;LastModified&gt;2020-10-26T20:57:55.32&lt;/LastModified&gt;
+      &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
+      &lt;ActionData&gt;{&quot;Data&quot;:[{&quot;name&quot;:&quot;isEdit&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;name&quot;:&quot;popupTitle&quot;,&quot;value&quot;:&quot;Edit Ticket&quot;}]}&lt;/ActionData&gt;
+      &lt;ModuleId&gt;423&lt;/ModuleId&gt;
+      &lt;EventName&gt;preinit&lt;/EventName&gt;
+      &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;PreInit.CheckEditMode&quot;,&quot;PAP_GeneratedCondition&quot;:&quot;!string.IsNullOrWhiteSpace([QueryString:TicketId=])&quot;}&lt;/MetadataJson&gt;
+      &lt;Metadata&gt;
+        &lt;PAP_InternalIdentifier&gt;PreInit.CheckEditMode&lt;/PAP_InternalIdentifier&gt;
+        &lt;PAP_GeneratedCondition&gt;!string.IsNullOrWhiteSpace([QueryString:TicketId=])&lt;/PAP_GeneratedCondition&gt;
       &lt;/Metadata&gt;
     &lt;/ActionInfo&gt;
     &lt;ActionInfo&gt;
@@ -668,22 +667,6 @@
     &lt;/ActionInfo&gt;
     &lt;ActionInfo&gt;
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
-      &lt;ActionType&gt;InitActionFormAndContinue&lt;/ActionType&gt;
-      &lt;OrderIndex&gt;3&lt;/OrderIndex&gt;
-      &lt;Condition&gt;[QueryString:detailPage=false]&lt;/Condition&gt;
-      &lt;LastModified&gt;2020-10-26T20:57:55.287&lt;/LastModified&gt;
-      &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
-      &lt;ActionData&gt;{&quot;ModuleId&quot;:{&quot;IsExpression&quot;:true,&quot;Expression&quot;:&quot;424&quot;,&quot;Value&quot;:&quot;&quot;,&quot;Parameters&quot;:{}},&quot;Params&quot;:[]}&lt;/ActionData&gt;
-      &lt;ModuleId&gt;423&lt;/ModuleId&gt;
-      &lt;FieldName&gt;Update&lt;/FieldName&gt;
-      &lt;EventName&gt;click&lt;/EventName&gt;
-      &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;Button.Update.RefreshDetailTitleForm&quot;}&lt;/MetadataJson&gt;
-      &lt;Metadata&gt;
-        &lt;PAP_InternalIdentifier&gt;Button.Update.RefreshDetailTitleForm&lt;/PAP_InternalIdentifier&gt;
-      &lt;/Metadata&gt;
-    &lt;/ActionInfo&gt;
-    &lt;ActionInfo&gt;
-      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;RefreshGrid&lt;/ActionType&gt;
       &lt;OrderIndex&gt;3&lt;/OrderIndex&gt;
       &lt;Condition /&gt;
@@ -696,6 +679,22 @@
       &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;Button.Add.RefreshGrid&quot;}&lt;/MetadataJson&gt;
       &lt;Metadata&gt;
         &lt;PAP_InternalIdentifier&gt;Button.Add.RefreshGrid&lt;/PAP_InternalIdentifier&gt;
+      &lt;/Metadata&gt;
+    &lt;/ActionInfo&gt;
+    &lt;ActionInfo&gt;
+      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+      &lt;ActionType&gt;InitActionFormAndContinue&lt;/ActionType&gt;
+      &lt;OrderIndex&gt;3&lt;/OrderIndex&gt;
+      &lt;Condition&gt;[QueryString:detailPage=false]&lt;/Condition&gt;
+      &lt;LastModified&gt;2020-10-26T20:57:55.287&lt;/LastModified&gt;
+      &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
+      &lt;ActionData&gt;{&quot;ModuleId&quot;:{&quot;IsExpression&quot;:true,&quot;Expression&quot;:&quot;424&quot;,&quot;Value&quot;:&quot;&quot;,&quot;Parameters&quot;:{}},&quot;Params&quot;:[]}&lt;/ActionData&gt;
+      &lt;ModuleId&gt;423&lt;/ModuleId&gt;
+      &lt;FieldName&gt;Update&lt;/FieldName&gt;
+      &lt;EventName&gt;click&lt;/EventName&gt;
+      &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;Button.Update.RefreshDetailTitleForm&quot;}&lt;/MetadataJson&gt;
+      &lt;Metadata&gt;
+        &lt;PAP_InternalIdentifier&gt;Button.Update.RefreshDetailTitleForm&lt;/PAP_InternalIdentifier&gt;
       &lt;/Metadata&gt;
     &lt;/ActionInfo&gt;
     &lt;ActionInfo&gt;
