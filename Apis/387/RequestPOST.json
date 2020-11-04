@@ -7,10 +7,19 @@
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
-      "Name": "Name",
+      "Name": "DueDate",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 0,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "Name",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 1,
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": [
@@ -25,15 +34,6 @@
     },
     {
       "Name": "Description",
-      "IsDeleted": false,
-      "IsEnabled": true,
-      "OrderIndex": 1,
-      "Parameters": {},
-      "InputTypeStr": "text",
-      "Validations": []
-    },
-    {
-      "Name": "DueDate",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 2,
@@ -57,9 +57,9 @@
       "OrderIndex": 0,
       "Parameters": {
         "OutputToken": "CreatedRecordId",
+        "DueDate": "[DueDate]",
         "Name": "[Name]",
         "Description": "[Description]",
-        "DueDate": "[DueDate]",
         "Owner": "[Owner]"
       },
       "IsEnabled": true,
@@ -94,16 +94,16 @@
             "value": "[CreatedRecordId]"
           },
           {
+            "name": "DueDate",
+            "value": "[CreatedRecord:DueDate]"
+          },
+          {
             "name": "Name",
             "value": "[CreatedRecord:Name]"
           },
           {
             "name": "Description",
             "value": "[CreatedRecord:Description]"
-          },
-          {
-            "name": "DueDate",
-            "value": "[CreatedRecord:DueDate]"
           },
           {
             "name": "Owner",
