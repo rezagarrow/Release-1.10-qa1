@@ -3,7 +3,7 @@
   "Description": "Deletes the provided DNNText record",
   "HttpMethod": "DELETE",
   "IsEnabled": true,
-  "OrderIndex": 104,
+  "OrderIndex": 132,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
