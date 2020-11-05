@@ -3,7 +3,7 @@
   "Description": "Returns the information of a DNNText record in JSON object format.",
   "HttpMethod": "GET",
   "IsEnabled": true,
-  "OrderIndex": 102,
+  "OrderIndex": 130,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
