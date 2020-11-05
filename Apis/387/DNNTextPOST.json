@@ -3,7 +3,7 @@
   "Description": "Creates a new record of type DNNText",
   "HttpMethod": "POST",
   "IsEnabled": true,
-  "OrderIndex": 101,
+  "OrderIndex": 129,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
