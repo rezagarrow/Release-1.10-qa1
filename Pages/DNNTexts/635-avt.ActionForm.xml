@@ -1,4 +1,4 @@
-<module type="ActionForm" version="05.10.06.00">
+<module type="ActionForm" version="05.10.10.00">
     <contentKey />
     <moduleID>635</moduleID>
     <alignment />
@@ -7,7 +7,6 @@
     <cachemethod />
     <cachetime>0</cachetime>
     <color />
-    <containersrc />
     <displayprint>true</displayprint>
     <displaysyndicate>false</displaysyndicate>
     <displaytitle>true</displaytitle>
@@ -29,7 +28,7 @@
     <tabmodulesettings />
     <definition>Action Form</definition>
     <moduledefinition>avt.Action Form</moduledefinition>
-    <content type="ActionForm" version="05.10.06.00"><![CDATA[&lt;ActionForm&gt;
+    <content type="ActionForm" version="05.10.10.00"><![CDATA[&lt;ActionForm&gt;
   &lt;Fields&gt;
     &lt;Field&gt;
       &lt;Id&gt;&lt;![CDATA[222]]&gt;&lt;/Id&gt;
@@ -296,7 +295,7 @@
     &lt;Title&gt;Form&lt;/Title&gt;
     &lt;CssName&gt;form&lt;/CssName&gt;
     &lt;Version&gt;5.10.0&lt;/Version&gt;
-    &lt;Build&gt;5.10.6&lt;/Build&gt;
+    &lt;Build&gt;5.10.10&lt;/Build&gt;
     &lt;CultureCode&gt;en&lt;/CultureCode&gt;
     &lt;RenderContext&gt;Form&lt;/RenderContext&gt;
     &lt;FrontEndTemplate /&gt;
@@ -313,7 +312,7 @@
     &lt;FieldSpacing&gt;normal&lt;/FieldSpacing&gt;
     &lt;OpenFormMode&gt;Manual&lt;/OpenFormMode&gt;
     &lt;ModuleId&gt;635&lt;/ModuleId&gt;
-    &lt;ModuleVersion&gt;5.10.6&lt;/ModuleVersion&gt;
+    &lt;ModuleVersion&gt;5.10.10&lt;/ModuleVersion&gt;
     &lt;TabId&gt;124&lt;/TabId&gt;
     &lt;ModuleBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm&lt;/ModuleBaseUrl&gt;
     &lt;ResourceBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm/static&lt;/ResourceBaseUrl&gt;
@@ -348,7 +347,7 @@
     &lt;LeftSidebarHtml /&gt;
     &lt;RightSidebarHtml /&gt;
     &lt;RootClasses /&gt;
-    &lt;LocalizedStringsUrl&gt;/DesktopModules/DnnSharp/ActionForm/AdminApi.ashx?method=GetLocalization&amp;amp;locale=en&amp;amp;section=FrontEnd&lt;/LocalizedStringsUrl&gt;
+    &lt;LocalizedStringsUrl&gt;/DesktopModules/DnnSharp/ActionForm/AdminApi.ashx?method=GetLocalization&amp;amp;locale=en-US&amp;amp;section=FrontEnd&lt;/LocalizedStringsUrl&gt;
     &lt;PortalHomeUrl&gt;/Portals/0/&lt;/PortalHomeUrl&gt;
   &lt;/Settings&gt;
   &lt;Actions xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;
