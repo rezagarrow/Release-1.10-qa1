@@ -1,4 +1,4 @@
-<module type="ActionForm" version="05.10.06.00">
+<module type="ActionForm" version="05.10.10.00">
     <contentKey />
     <moduleID>392</moduleID>
     <alignment />
@@ -7,7 +7,6 @@
     <cachemethod />
     <cachetime>0</cachetime>
     <color />
-    <containersrc />
     <displayprint>true</displayprint>
     <displaysyndicate>false</displaysyndicate>
     <displaytitle>true</displaytitle>
@@ -29,7 +28,7 @@
     <tabmodulesettings />
     <definition>Action Form</definition>
     <moduledefinition>avt.Action Form</moduledefinition>
-    <content type="ActionForm" version="05.10.06.00"><![CDATA[&lt;ActionForm&gt;
+    <content type="ActionForm" version="05.10.10.00"><![CDATA[&lt;ActionForm&gt;
   &lt;Fields&gt;
     &lt;Field&gt;
       &lt;Id&gt;&lt;![CDATA[11]]&gt;&lt;/Id&gt;
@@ -137,13 +136,13 @@
       &lt;ColOffset&gt;0&lt;/ColOffset&gt;
     &lt;/Field&gt;
     &lt;Field&gt;
-      &lt;Id&gt;&lt;![CDATA[13]]&gt;&lt;/Id&gt;
-      &lt;Title&gt;&lt;![CDATA[date]]&gt;&lt;/Title&gt;
+      &lt;Id&gt;&lt;![CDATA[15]]&gt;&lt;/Id&gt;
+      &lt;Title&gt;&lt;![CDATA[local date time]]&gt;&lt;/Title&gt;
       &lt;ShortDesc&gt;&lt;![CDATA[]]&gt;&lt;/ShortDesc&gt;
       &lt;CustomAttributesJson&gt;&lt;![CDATA[[]]]&gt;&lt;/CustomAttributesJson&gt;
       &lt;IsEnabled&gt;True&lt;/IsEnabled&gt;
-      &lt;OverrideName&gt;p_date&lt;/OverrideName&gt;
-      &lt;Name&gt;p_date&lt;/Name&gt;
+      &lt;OverrideName&gt;p_localdatetime&lt;/OverrideName&gt;
+      &lt;Name&gt;p_localdatetime&lt;/Name&gt;
       &lt;HelpText&gt;&lt;![CDATA[]]&gt;&lt;/HelpText&gt;
       &lt;ShowCondition&gt;&lt;![CDATA[]]&gt;&lt;/ShowCondition&gt;
       &lt;ValidationCondition&gt;&lt;![CDATA[]]&gt;&lt;/ValidationCondition&gt;
@@ -154,12 +153,12 @@
       &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
       &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
       &lt;InputType&gt;datetime-flatpickr&lt;/InputType&gt;
-      &lt;InputData&gt;{&quot;Value&quot;:&quot;[original:date:ISO]&quot;,&quot;ClientFormat&quot;:&quot;MM/dd/yyyy&quot;,&quot;PickerType&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;date&quot;,&quot;Parameters&quot;:{}},&quot;DisableFutureOrPast&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;none&quot;,&quot;Parameters&quot;:{}},&quot;FirstDayOfWeek&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;sunday&quot;,&quot;Parameters&quot;:{}},&quot;DisableWeekends&quot;:false,&quot;Inline&quot;:false,&quot;Time24Hours&quot;:false,&quot;MinuteIncrement&quot;:&quot;5&quot;,&quot;DateHelpText&quot;:&quot;&quot;,&quot;MinDate&quot;:&quot;&quot;,&quot;MaxDate&quot;:&quot;&quot;,&quot;MinTime&quot;:&quot;&quot;,&quot;MaxTime&quot;:&quot;&quot;,&quot;SaveToReport&quot;:false}&lt;/InputData&gt;
-      &lt;ClientFormat&gt;MM/dd/yyyy&lt;/ClientFormat&gt;
+      &lt;InputData&gt;{&quot;Value&quot;:&quot;[original:localdatetime:ISO]&quot;,&quot;ClientFormat&quot;:&quot;MM/dd/yyyy hh:mm tt&quot;,&quot;PickerType&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;dateandtime&quot;,&quot;Parameters&quot;:{}},&quot;DisableFutureOrPast&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;none&quot;,&quot;Parameters&quot;:{}},&quot;FirstDayOfWeek&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;sunday&quot;,&quot;Parameters&quot;:{}},&quot;DisableWeekends&quot;:false,&quot;Inline&quot;:false,&quot;Time24Hours&quot;:false,&quot;MinuteIncrement&quot;:&quot;5&quot;,&quot;DateHelpText&quot;:&quot;&quot;,&quot;MinDate&quot;:&quot;&quot;,&quot;MaxDate&quot;:&quot;&quot;,&quot;MinTime&quot;:&quot;&quot;,&quot;MaxTime&quot;:&quot;&quot;,&quot;SaveToReport&quot;:false}&lt;/InputData&gt;
+      &lt;ClientFormat&gt;MM/dd/yyyy hh:mm tt&lt;/ClientFormat&gt;
       &lt;PickerType&gt;
         &lt;IsExpression&gt;False&lt;/IsExpression&gt;
         &lt;Expression /&gt;
-        &lt;Value&gt;date&lt;/Value&gt;
+        &lt;Value&gt;dateandtime&lt;/Value&gt;
         &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
       &lt;/PickerType&gt;
       &lt;DisableFutureOrPast&gt;
@@ -185,7 +184,7 @@
       &lt;MaxTime /&gt;
       &lt;SaveToReport&gt;False&lt;/SaveToReport&gt;
       &lt;IsoFormats&gt;{&quot;time&quot;:&quot;HH&#39;:&#39;mm&quot;,&quot;timeWithSeconds&quot;:&quot;HH&#39;:&#39;mm&#39;:&#39;ss&quot;,&quot;timeSpan&quot;:&quot;hh&#39;:&#39;mm&quot;,&quot;timeSpanWithSeconds&quot;:&quot;hh&#39;:&#39;mm&#39;:&#39;ss&quot;,&quot;date&quot;:&quot;yyyy-MM-dd&quot;,&quot;dateTime&quot;:&quot;yyyy-MM-dd&#39;T&#39;HH:mm:ssK&quot;,&quot;dateTimeWithMilliseconds&quot;:&quot;yyyy-MM-dd&#39;T&#39;HH:mm:ss.FFFFFFFK&quot;}&lt;/IsoFormats&gt;
-      &lt;Value&gt;&lt;![CDATA[[original:date:ISO]]]&gt;&lt;/Value&gt;
+      &lt;Value&gt;&lt;![CDATA[[original:localdatetime:ISO]]]&gt;&lt;/Value&gt;
       &lt;IsRequired&gt;False&lt;/IsRequired&gt;
       &lt;IsActive&gt;True&lt;/IsActive&gt;
       &lt;EnableCondition /&gt;
@@ -273,13 +272,13 @@
       &lt;ColOffset&gt;0&lt;/ColOffset&gt;
     &lt;/Field&gt;
     &lt;Field&gt;
-      &lt;Id&gt;&lt;![CDATA[15]]&gt;&lt;/Id&gt;
-      &lt;Title&gt;&lt;![CDATA[local date time]]&gt;&lt;/Title&gt;
+      &lt;Id&gt;&lt;![CDATA[13]]&gt;&lt;/Id&gt;
+      &lt;Title&gt;&lt;![CDATA[date]]&gt;&lt;/Title&gt;
       &lt;ShortDesc&gt;&lt;![CDATA[]]&gt;&lt;/ShortDesc&gt;
       &lt;CustomAttributesJson&gt;&lt;![CDATA[[]]]&gt;&lt;/CustomAttributesJson&gt;
       &lt;IsEnabled&gt;True&lt;/IsEnabled&gt;
-      &lt;OverrideName&gt;p_localdatetime&lt;/OverrideName&gt;
-      &lt;Name&gt;p_localdatetime&lt;/Name&gt;
+      &lt;OverrideName&gt;p_date&lt;/OverrideName&gt;
+      &lt;Name&gt;p_date&lt;/Name&gt;
       &lt;HelpText&gt;&lt;![CDATA[]]&gt;&lt;/HelpText&gt;
       &lt;ShowCondition&gt;&lt;![CDATA[]]&gt;&lt;/ShowCondition&gt;
       &lt;ValidationCondition&gt;&lt;![CDATA[]]&gt;&lt;/ValidationCondition&gt;
@@ -290,12 +289,12 @@
       &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
       &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
       &lt;InputType&gt;datetime-flatpickr&lt;/InputType&gt;
-      &lt;InputData&gt;{&quot;Value&quot;:&quot;[original:localdatetime:ISO]&quot;,&quot;ClientFormat&quot;:&quot;MM/dd/yyyy hh:mm tt&quot;,&quot;PickerType&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;dateandtime&quot;,&quot;Parameters&quot;:{}},&quot;DisableFutureOrPast&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;none&quot;,&quot;Parameters&quot;:{}},&quot;FirstDayOfWeek&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;sunday&quot;,&quot;Parameters&quot;:{}},&quot;DisableWeekends&quot;:false,&quot;Inline&quot;:false,&quot;Time24Hours&quot;:false,&quot;MinuteIncrement&quot;:&quot;5&quot;,&quot;DateHelpText&quot;:&quot;&quot;,&quot;MinDate&quot;:&quot;&quot;,&quot;MaxDate&quot;:&quot;&quot;,&quot;MinTime&quot;:&quot;&quot;,&quot;MaxTime&quot;:&quot;&quot;,&quot;SaveToReport&quot;:false}&lt;/InputData&gt;
-      &lt;ClientFormat&gt;MM/dd/yyyy hh:mm tt&lt;/ClientFormat&gt;
+      &lt;InputData&gt;{&quot;Value&quot;:&quot;[original:date:ISO]&quot;,&quot;ClientFormat&quot;:&quot;MM/dd/yyyy&quot;,&quot;PickerType&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;date&quot;,&quot;Parameters&quot;:{}},&quot;DisableFutureOrPast&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;none&quot;,&quot;Parameters&quot;:{}},&quot;FirstDayOfWeek&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;sunday&quot;,&quot;Parameters&quot;:{}},&quot;DisableWeekends&quot;:false,&quot;Inline&quot;:false,&quot;Time24Hours&quot;:false,&quot;MinuteIncrement&quot;:&quot;5&quot;,&quot;DateHelpText&quot;:&quot;&quot;,&quot;MinDate&quot;:&quot;&quot;,&quot;MaxDate&quot;:&quot;&quot;,&quot;MinTime&quot;:&quot;&quot;,&quot;MaxTime&quot;:&quot;&quot;,&quot;SaveToReport&quot;:false}&lt;/InputData&gt;
+      &lt;ClientFormat&gt;MM/dd/yyyy&lt;/ClientFormat&gt;
       &lt;PickerType&gt;
         &lt;IsExpression&gt;False&lt;/IsExpression&gt;
         &lt;Expression /&gt;
-        &lt;Value&gt;dateandtime&lt;/Value&gt;
+        &lt;Value&gt;date&lt;/Value&gt;
         &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
       &lt;/PickerType&gt;
       &lt;DisableFutureOrPast&gt;
@@ -321,7 +320,7 @@
       &lt;MaxTime /&gt;
       &lt;SaveToReport&gt;False&lt;/SaveToReport&gt;
       &lt;IsoFormats&gt;{&quot;time&quot;:&quot;HH&#39;:&#39;mm&quot;,&quot;timeWithSeconds&quot;:&quot;HH&#39;:&#39;mm&#39;:&#39;ss&quot;,&quot;timeSpan&quot;:&quot;hh&#39;:&#39;mm&quot;,&quot;timeSpanWithSeconds&quot;:&quot;hh&#39;:&#39;mm&#39;:&#39;ss&quot;,&quot;date&quot;:&quot;yyyy-MM-dd&quot;,&quot;dateTime&quot;:&quot;yyyy-MM-dd&#39;T&#39;HH:mm:ssK&quot;,&quot;dateTimeWithMilliseconds&quot;:&quot;yyyy-MM-dd&#39;T&#39;HH:mm:ss.FFFFFFFK&quot;}&lt;/IsoFormats&gt;
-      &lt;Value&gt;&lt;![CDATA[[original:localdatetime:ISO]]]&gt;&lt;/Value&gt;
+      &lt;Value&gt;&lt;![CDATA[[original:date:ISO]]]&gt;&lt;/Value&gt;
       &lt;IsRequired&gt;False&lt;/IsRequired&gt;
       &lt;IsActive&gt;True&lt;/IsActive&gt;
       &lt;EnableCondition /&gt;
@@ -721,7 +720,7 @@
     &lt;Title&gt;Form&lt;/Title&gt;
     &lt;CssName&gt;form&lt;/CssName&gt;
     &lt;Version&gt;5.10.0&lt;/Version&gt;
-    &lt;Build&gt;5.10.6&lt;/Build&gt;
+    &lt;Build&gt;5.10.10&lt;/Build&gt;
     &lt;CultureCode&gt;en&lt;/CultureCode&gt;
     &lt;RenderContext&gt;Form&lt;/RenderContext&gt;
     &lt;FrontEndTemplate /&gt;
@@ -738,7 +737,7 @@
     &lt;FieldSpacing&gt;normal&lt;/FieldSpacing&gt;
     &lt;OpenFormMode&gt;Manual&lt;/OpenFormMode&gt;
     &lt;ModuleId&gt;392&lt;/ModuleId&gt;
-    &lt;ModuleVersion&gt;5.10.6&lt;/ModuleVersion&gt;
+    &lt;ModuleVersion&gt;5.10.10&lt;/ModuleVersion&gt;
     &lt;TabId&gt;43&lt;/TabId&gt;
     &lt;ModuleBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm&lt;/ModuleBaseUrl&gt;
     &lt;ResourceBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm/static&lt;/ResourceBaseUrl&gt;
@@ -813,6 +812,22 @@
     &lt;/ActionInfo&gt;
     &lt;ActionInfo&gt;
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+      &lt;ActionType&gt;ShowError&lt;/ActionType&gt;
+      &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
+      &lt;Condition&gt;![h_isEdit] &amp;amp;&amp;amp; ![HasRole:5] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:7] &amp;amp;&amp;amp; ![HasRole:8]&lt;/Condition&gt;
+      &lt;LastModified&gt;2020-10-29T15:09:38.21&lt;/LastModified&gt;
+      &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
+      &lt;ActionData&gt;{&quot;Message&quot;:&quot;You are not allowed to add items.&quot;}&lt;/ActionData&gt;
+      &lt;ModuleId&gt;392&lt;/ModuleId&gt;
+      &lt;EventName&gt;init&lt;/EventName&gt;
+      &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;Action.CheckAddPermissions&quot;,&quot;PAP_GeneratedCondition&quot;:&quot;![h_isEdit] &amp;amp;&amp;amp; ![HasRole:5] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:7] &amp;amp;&amp;amp; ![HasRole:8]&quot;}&lt;/MetadataJson&gt;
+      &lt;Metadata&gt;
+        &lt;PAP_InternalIdentifier&gt;Action.CheckAddPermissions&lt;/PAP_InternalIdentifier&gt;
+        &lt;PAP_GeneratedCondition&gt;![h_isEdit] &amp;amp;&amp;amp; ![HasRole:5] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:7] &amp;amp;&amp;amp; ![HasRole:8]&lt;/PAP_GeneratedCondition&gt;
+      &lt;/Metadata&gt;
+    &lt;/ActionInfo&gt;
+    &lt;ActionInfo&gt;
+      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;InjectData&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
       &lt;LastModified&gt;2020-10-29T15:09:38.21&lt;/LastModified&gt;
@@ -827,18 +842,34 @@
     &lt;/ActionInfo&gt;
     &lt;ActionInfo&gt;
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
-      &lt;ActionType&gt;ShowError&lt;/ActionType&gt;
-      &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
-      &lt;Condition&gt;![h_isEdit] &amp;amp;&amp;amp; ![HasRole:5] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:7] &amp;amp;&amp;amp; ![HasRole:8]&lt;/Condition&gt;
-      &lt;LastModified&gt;2020-10-29T15:09:38.21&lt;/LastModified&gt;
+      &lt;ActionType&gt;PlantAnApp.CreateEntity.0.newent&lt;/ActionType&gt;
+      &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
+      &lt;LastModified&gt;2020-10-29T15:09:38.193&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
-      &lt;ActionData&gt;{&quot;Message&quot;:&quot;You are not allowed to add items.&quot;}&lt;/ActionData&gt;
+      &lt;ActionData&gt;{&quot;OutputToken&quot;:&quot;NewnewentId&quot;,&quot;name&quot;:&quot;[p_name]&quot;,&quot;date&quot;:&quot;[p_date]&quot;,&quot;datetime&quot;:&quot;[p_datetime]&quot;,&quot;localdatetime&quot;:&quot;[p_localdatetime]&quot;,&quot;Int&quot;:&quot;[p_Int]&quot;,&quot;Dec&quot;:&quot;[p_Dec]&quot;,&quot;Link&quot;:&quot;[r_LinkId]&quot;,&quot;LargeText&quot;:&quot;[r_LargeTextId]&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;392&lt;/ModuleId&gt;
-      &lt;EventName&gt;init&lt;/EventName&gt;
-      &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;Action.CheckAddPermissions&quot;,&quot;PAP_GeneratedCondition&quot;:&quot;![h_isEdit] &amp;amp;&amp;amp; ![HasRole:5] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:7] &amp;amp;&amp;amp; ![HasRole:8]&quot;}&lt;/MetadataJson&gt;
+      &lt;FieldName&gt;Add&lt;/FieldName&gt;
+      &lt;EventName&gt;click&lt;/EventName&gt;
+      &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;Button.Add.CreateEntity&quot;,&quot;EntityIdentifier&quot;:&quot;newent&quot;}&lt;/MetadataJson&gt;
       &lt;Metadata&gt;
-        &lt;PAP_InternalIdentifier&gt;Action.CheckAddPermissions&lt;/PAP_InternalIdentifier&gt;
-        &lt;PAP_GeneratedCondition&gt;![h_isEdit] &amp;amp;&amp;amp; ![HasRole:5] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:7] &amp;amp;&amp;amp; ![HasRole:8]&lt;/PAP_GeneratedCondition&gt;
+        &lt;PAP_InternalIdentifier&gt;Button.Add.CreateEntity&lt;/PAP_InternalIdentifier&gt;
+        &lt;EntityIdentifier&gt;newent&lt;/EntityIdentifier&gt;
+      &lt;/Metadata&gt;
+    &lt;/ActionInfo&gt;
+    &lt;ActionInfo&gt;
+      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+      &lt;ActionType&gt;PlantAnApp.UpdateEntity.0.newent&lt;/ActionType&gt;
+      &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
+      &lt;LastModified&gt;2020-10-29T15:09:38.193&lt;/LastModified&gt;
+      &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
+      &lt;ActionData&gt;{&quot;RecordId&quot;:&quot;[QueryString:newentId=]&quot;,&quot;name&quot;:&quot;[p_name]&quot;,&quot;date&quot;:&quot;[p_date]&quot;,&quot;datetime&quot;:&quot;[p_datetime]&quot;,&quot;localdatetime&quot;:&quot;[p_localdatetime]&quot;,&quot;Int&quot;:&quot;[p_Int]&quot;,&quot;Dec&quot;:&quot;[p_Dec]&quot;,&quot;Link&quot;:&quot;[r_LinkId]&quot;,&quot;LargeText&quot;:&quot;[r_LargeTextId]&quot;}&lt;/ActionData&gt;
+      &lt;ModuleId&gt;392&lt;/ModuleId&gt;
+      &lt;FieldName&gt;Update&lt;/FieldName&gt;
+      &lt;EventName&gt;click&lt;/EventName&gt;
+      &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;Button.Update.UpdateEntity&quot;,&quot;EntityIdentifier&quot;:&quot;newent&quot;}&lt;/MetadataJson&gt;
+      &lt;Metadata&gt;
+        &lt;PAP_InternalIdentifier&gt;Button.Update.UpdateEntity&lt;/PAP_InternalIdentifier&gt;
+        &lt;EntityIdentifier&gt;newent&lt;/EntityIdentifier&gt;
       &lt;/Metadata&gt;
     &lt;/ActionInfo&gt;
     &lt;ActionInfo&gt;
@@ -872,38 +903,6 @@
       &lt;Metadata&gt;
         &lt;PAP_InternalIdentifier&gt;PreInit.CheckEditMode&lt;/PAP_InternalIdentifier&gt;
         &lt;PAP_GeneratedCondition&gt;!string.IsNullOrWhiteSpace([QueryString:newentId=])&lt;/PAP_GeneratedCondition&gt;
-      &lt;/Metadata&gt;
-    &lt;/ActionInfo&gt;
-    &lt;ActionInfo&gt;
-      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
-      &lt;ActionType&gt;PlantAnApp.UpdateEntity.0.newent&lt;/ActionType&gt;
-      &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2020-10-29T15:09:38.193&lt;/LastModified&gt;
-      &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
-      &lt;ActionData&gt;{&quot;RecordId&quot;:&quot;[QueryString:newentId=]&quot;,&quot;name&quot;:&quot;[p_name]&quot;,&quot;date&quot;:&quot;[p_date]&quot;,&quot;datetime&quot;:&quot;[p_datetime]&quot;,&quot;localdatetime&quot;:&quot;[p_localdatetime]&quot;,&quot;Int&quot;:&quot;[p_Int]&quot;,&quot;Dec&quot;:&quot;[p_Dec]&quot;,&quot;Link&quot;:&quot;[r_LinkId]&quot;,&quot;LargeText&quot;:&quot;[r_LargeTextId]&quot;}&lt;/ActionData&gt;
-      &lt;ModuleId&gt;392&lt;/ModuleId&gt;
-      &lt;FieldName&gt;Update&lt;/FieldName&gt;
-      &lt;EventName&gt;click&lt;/EventName&gt;
-      &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;Button.Update.UpdateEntity&quot;,&quot;EntityIdentifier&quot;:&quot;newent&quot;}&lt;/MetadataJson&gt;
-      &lt;Metadata&gt;
-        &lt;PAP_InternalIdentifier&gt;Button.Update.UpdateEntity&lt;/PAP_InternalIdentifier&gt;
-        &lt;EntityIdentifier&gt;newent&lt;/EntityIdentifier&gt;
-      &lt;/Metadata&gt;
-    &lt;/ActionInfo&gt;
-    &lt;ActionInfo&gt;
-      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
-      &lt;ActionType&gt;PlantAnApp.CreateEntity.0.newent&lt;/ActionType&gt;
-      &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2020-10-29T15:09:38.193&lt;/LastModified&gt;
-      &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
-      &lt;ActionData&gt;{&quot;OutputToken&quot;:&quot;NewnewentId&quot;,&quot;name&quot;:&quot;[p_name]&quot;,&quot;date&quot;:&quot;[p_date]&quot;,&quot;datetime&quot;:&quot;[p_datetime]&quot;,&quot;localdatetime&quot;:&quot;[p_localdatetime]&quot;,&quot;Int&quot;:&quot;[p_Int]&quot;,&quot;Dec&quot;:&quot;[p_Dec]&quot;,&quot;Link&quot;:&quot;[r_LinkId]&quot;,&quot;LargeText&quot;:&quot;[r_LargeTextId]&quot;}&lt;/ActionData&gt;
-      &lt;ModuleId&gt;392&lt;/ModuleId&gt;
-      &lt;FieldName&gt;Add&lt;/FieldName&gt;
-      &lt;EventName&gt;click&lt;/EventName&gt;
-      &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;Button.Add.CreateEntity&quot;,&quot;EntityIdentifier&quot;:&quot;newent&quot;}&lt;/MetadataJson&gt;
-      &lt;Metadata&gt;
-        &lt;PAP_InternalIdentifier&gt;Button.Add.CreateEntity&lt;/PAP_InternalIdentifier&gt;
-        &lt;EntityIdentifier&gt;newent&lt;/EntityIdentifier&gt;
       &lt;/Metadata&gt;
     &lt;/ActionInfo&gt;
     &lt;ActionInfo&gt;
@@ -956,15 +955,19 @@
     &lt;/ActionInfo&gt;
     &lt;ActionInfo&gt;
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
-      &lt;ActionType&gt;AddMultipleChoiceWithRadioButtons&lt;/ActionType&gt;
+      &lt;ActionType&gt;RefreshGrid&lt;/ActionType&gt;
       &lt;OrderIndex&gt;3&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2020-10-29T15:09:38.227&lt;/LastModified&gt;
+      &lt;Condition /&gt;
+      &lt;LastModified&gt;2020-10-29T15:09:38.193&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
-      &lt;ActionData&gt;{&quot;ContainerId&quot;:&quot;DynamicFieldContainer&quot;,&quot;FieldId&quot;:&quot;test&quot;,&quot;FieldName&quot;:&quot;Test&quot;,&quot;FieldDescription&quot;:&quot;Test&quot;,&quot;InitialValue&quot;:&quot;1&quot;,&quot;Horizontal&quot;:&quot;1&quot;,&quot;RadioType&quot;:&quot;1&quot;,&quot;BtnClass&quot;:&quot;btn-default&quot;,&quot;BtnStyles&quot;:&quot;&quot;,&quot;WordBetween&quot;:&quot;or&quot;,&quot;WordBetweenStyles&quot;:&quot;&quot;,&quot;LinkToFields&quot;:&quot;&quot;,&quot;DataSource&quot;:{&quot;SupportsExpressions&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;Items&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{},&quot;Items&quot;:&quot;We rock\nSo awesome&quot;},&quot;TokenizeParameters&quot;:true,&quot;BindShow&quot;:&quot;&quot;,&quot;BindValue&quot;:&quot;&quot;,&quot;BindOnChange&quot;:&quot;&quot;,&quot;TokenizeBindExpressions&quot;:&quot;&quot;,&quot;ControlCssClass&quot;:&quot;&quot;,&quot;ControlCssStyle&quot;:&quot;&quot;,&quot;LabelCssClass&quot;:&quot;&quot;,&quot;LabelCssStyle&quot;:&quot;&quot;,&quot;IsRequired&quot;:&quot;&quot;,&quot;ValidationCondition&quot;:&quot;&quot;,&quot;CustomValidator1&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;CustomValidator2&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;TokenizeValidators&quot;:true,&quot;FieldIdTokenName&quot;:&quot;&quot;}&lt;/ActionData&gt;
+      &lt;ActionData&gt;{&quot;ModuleId&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:391,&quot;Parameters&quot;:{}}}&lt;/ActionData&gt;
       &lt;ModuleId&gt;392&lt;/ModuleId&gt;
-      &lt;EventName&gt;preinit&lt;/EventName&gt;
-      &lt;MetadataJson&gt;{}&lt;/MetadataJson&gt;
-      &lt;Metadata /&gt;
+      &lt;FieldName&gt;Add&lt;/FieldName&gt;
+      &lt;EventName&gt;click&lt;/EventName&gt;
+      &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;Button.Add.RefreshGrid&quot;}&lt;/MetadataJson&gt;
+      &lt;Metadata&gt;
+        &lt;PAP_InternalIdentifier&gt;Button.Add.RefreshGrid&lt;/PAP_InternalIdentifier&gt;
+      &lt;/Metadata&gt;
     &lt;/ActionInfo&gt;
     &lt;ActionInfo&gt;
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
@@ -984,19 +987,15 @@
     &lt;/ActionInfo&gt;
     &lt;ActionInfo&gt;
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
-      &lt;ActionType&gt;RefreshGrid&lt;/ActionType&gt;
+      &lt;ActionType&gt;AddMultipleChoiceWithRadioButtons&lt;/ActionType&gt;
       &lt;OrderIndex&gt;3&lt;/OrderIndex&gt;
-      &lt;Condition /&gt;
-      &lt;LastModified&gt;2020-10-29T15:09:38.193&lt;/LastModified&gt;
+      &lt;LastModified&gt;2020-10-29T15:09:38.227&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
-      &lt;ActionData&gt;{&quot;ModuleId&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:391,&quot;Parameters&quot;:{}}}&lt;/ActionData&gt;
+      &lt;ActionData&gt;{&quot;ContainerId&quot;:&quot;DynamicFieldContainer&quot;,&quot;FieldId&quot;:&quot;test&quot;,&quot;FieldName&quot;:&quot;Test&quot;,&quot;FieldDescription&quot;:&quot;Test&quot;,&quot;InitialValue&quot;:&quot;1&quot;,&quot;Horizontal&quot;:&quot;1&quot;,&quot;RadioType&quot;:&quot;1&quot;,&quot;BtnClass&quot;:&quot;btn-default&quot;,&quot;BtnStyles&quot;:&quot;&quot;,&quot;WordBetween&quot;:&quot;or&quot;,&quot;WordBetweenStyles&quot;:&quot;&quot;,&quot;LinkToFields&quot;:&quot;&quot;,&quot;DataSource&quot;:{&quot;SupportsExpressions&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;Items&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{},&quot;Items&quot;:&quot;We rock\nSo awesome&quot;},&quot;TokenizeParameters&quot;:true,&quot;BindShow&quot;:&quot;&quot;,&quot;BindValue&quot;:&quot;&quot;,&quot;BindOnChange&quot;:&quot;&quot;,&quot;TokenizeBindExpressions&quot;:&quot;&quot;,&quot;ControlCssClass&quot;:&quot;&quot;,&quot;ControlCssStyle&quot;:&quot;&quot;,&quot;LabelCssClass&quot;:&quot;&quot;,&quot;LabelCssStyle&quot;:&quot;&quot;,&quot;IsRequired&quot;:&quot;&quot;,&quot;ValidationCondition&quot;:&quot;&quot;,&quot;CustomValidator1&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;CustomValidator2&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;TokenizeValidators&quot;:true,&quot;FieldIdTokenName&quot;:&quot;&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;392&lt;/ModuleId&gt;
-      &lt;FieldName&gt;Add&lt;/FieldName&gt;
-      &lt;EventName&gt;click&lt;/EventName&gt;
-      &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;Button.Add.RefreshGrid&quot;}&lt;/MetadataJson&gt;
-      &lt;Metadata&gt;
-        &lt;PAP_InternalIdentifier&gt;Button.Add.RefreshGrid&lt;/PAP_InternalIdentifier&gt;
-      &lt;/Metadata&gt;
+      &lt;EventName&gt;preinit&lt;/EventName&gt;
+      &lt;MetadataJson&gt;{}&lt;/MetadataJson&gt;
+      &lt;Metadata /&gt;
     &lt;/ActionInfo&gt;
     &lt;ActionInfo&gt;
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
