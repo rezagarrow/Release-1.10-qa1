@@ -20,5 +20,27 @@
     "IsFilterable": false,
     "IsSortable": false,
     "OrderIndex": 1
+  },
+  {
+    "Id": 71,
+    "EntityVersionId": 23,
+    "Name": "bool",
+    "Type": {
+      "Id": "Boolean",
+      "Name": "Boolean",
+      "InputType": {
+        "Id": "Boolean",
+        "Name": "Boolean",
+        "ValueType": "Boolean",
+        "Length": 1,
+        "Icon": "check_circle_outline"
+      }
+    },
+    "IsDeleted": false,
+    "IsRequired": false,
+    "IsSearchable": false,
+    "IsFilterable": false,
+    "IsSortable": false,
+    "OrderIndex": 2
   }
 ]
