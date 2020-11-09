@@ -3,7 +3,7 @@
   "Description": "Creates a new record of type newent",
   "HttpMethod": "POST",
   "IsEnabled": true,
-  "OrderIndex": 97,
+  "OrderIndex": 137,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "Name": "date",
+      "Name": "localdatetime",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 1,
@@ -42,7 +42,7 @@
       "Validations": []
     },
     {
-      "Name": "localdatetime",
+      "Name": "date",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 3,
@@ -94,9 +94,9 @@
       "Parameters": {
         "OutputToken": "CreatedRecordId",
         "name": "[name]",
-        "date": "[date]",
-        "datetime": "[datetime]",
         "localdatetime": "[localdatetime]",
+        "datetime": "[datetime]",
+        "date": "[date]",
         "Int": "[Int]",
         "Dec": "[Dec]",
         "Link": "[Link]",
@@ -138,16 +138,16 @@
             "value": "[CreatedRecord:name]"
           },
           {
-            "name": "date",
-            "value": "[CreatedRecord:date]"
+            "name": "localdatetime",
+            "value": "[CreatedRecord:localdatetime]"
           },
           {
             "name": "datetime",
             "value": "[CreatedRecord:datetime]"
           },
           {
-            "name": "localdatetime",
-            "value": "[CreatedRecord:localdatetime]"
+            "name": "date",
+            "value": "[CreatedRecord:date]"
           },
           {
             "name": "Int",
