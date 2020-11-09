@@ -1,0 +1,11 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 70,
+  "Id": 23,
+  "VersionId": 23,
+  "Name": "Bool",
+  "PluralName": "Bools",
+  "Icon": "table",
+  "Type": "UserCreated"
+}
