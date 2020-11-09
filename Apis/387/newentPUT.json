@@ -3,7 +3,7 @@
   "Description": "Updates the information of the provided newent record",
   "HttpMethod": "PUT",
   "IsEnabled": true,
-  "OrderIndex": 99,
+  "OrderIndex": 139,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "Name": "date",
+      "Name": "localdatetime",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 2,
@@ -59,7 +59,7 @@
       "Validations": []
     },
     {
-      "Name": "localdatetime",
+      "Name": "date",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 4,
@@ -111,9 +111,9 @@
       "Parameters": {
         "RecordId": "[RecordId]",
         "name": "[name]",
-        "date": "[date]",
-        "datetime": "[datetime]",
         "localdatetime": "[localdatetime]",
+        "datetime": "[datetime]",
+        "date": "[date]",
         "Int": "[Int]",
         "Dec": "[Dec]",
         "Link": "[Link]",
