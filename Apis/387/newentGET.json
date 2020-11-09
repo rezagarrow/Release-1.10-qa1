@@ -3,7 +3,7 @@
   "Description": "Returns the information of a newent record in JSON object format.",
   "HttpMethod": "GET",
   "IsEnabled": true,
-  "OrderIndex": 98,
+  "OrderIndex": 138,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -54,16 +54,16 @@
             "value": "[Record:name]"
           },
           {
-            "name": "date",
-            "value": "[Record:date]"
+            "name": "localdatetime",
+            "value": "[Record:localdatetime]"
           },
           {
             "name": "datetime",
             "value": "[Record:datetime]"
           },
           {
-            "name": "localdatetime",
-            "value": "[Record:localdatetime]"
+            "name": "date",
+            "value": "[Record:date]"
           },
           {
             "name": "Int",
