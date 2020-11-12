@@ -69,7 +69,7 @@
       "Description": "",
       "ActionType": "ExecuteApiMethod",
       "OrderIndex": 2,
-      "Condition": "0",
+      "Condition": "",
       "Parameters": {
         "ApiModule": {
           "Expression": "",
@@ -91,7 +91,7 @@
         },
         "ProcessResponseType": {
           "Expression": "",
-          "Value": "0",
+          "Value": "1",
           "IsExpression": false,
           "Parameters": {}
         },
