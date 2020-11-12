@@ -40,7 +40,8 @@
       "Parameters": {
         "OutputToken": "CreatedRecordId",
         "Name": "[Name]",
-        "Desc": "[Desc]"
+        "Desc": "[Desc]",
+        "ConnectionString": ""
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -54,7 +55,8 @@
       "OrderIndex": 1,
       "Parameters": {
         "RecordId": "[CreatedRecordId]",
-        "OutputToken": "CreatedRecord"
+        "OutputToken": "CreatedRecord",
+        "ConnectionString": ""
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -64,8 +66,56 @@
       }
     },
     {
-      "ActionType": "JsonObject",
+      "ActionType": "ExecuteApiMethod",
       "OrderIndex": 2,
+      "Parameters": {
+        "ApiModule": {
+          "Expression": "",
+          "Value": "387",
+          "IsExpression": false,
+          "Parameters": {}
+        },
+        "MethodName": {
+          "Expression": "",
+          "Value": "TicketStatus#GET",
+          "IsExpression": false,
+          "Parameters": {}
+        },
+        "HttpMethod": {
+          "Expression": "",
+          "Value": "",
+          "IsExpression": false,
+          "Parameters": {}
+        },
+        "ProcessResponseType": {
+          "Expression": "",
+          "Value": "0",
+          "IsExpression": false,
+          "Parameters": {}
+        },
+        "MethodInputs": "",
+        "MethodInputsList": [
+          {
+            "MethodInputName": {
+              "Value": "RecordId",
+              "IsExpression": false,
+              "Parameters": {}
+            },
+            "MethodInputValue": {
+              "Value": "[CreatedRecordId]",
+              "IsExpression": false
+            }
+          }
+        ],
+        "OutputTokenName": "aCreatedRecord"
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {}
+    },
+    {
+      "ActionType": "JsonObject",
+      "OrderIndex": 3,
       "Parameters": {
         "HttpCode": "201 Created",
         "Fields": [
@@ -80,6 +130,10 @@
           {
             "name": "Desc",
             "value": "[CreatedRecord:Desc]"
+          },
+          {
+            "value": "[aCreatedRecordId]",
+            "name": "API"
           }
         ],
         "Headers": [
@@ -87,7 +141,8 @@
             "name": "Location",
             "value": "http://release110-qa1.apps.plantanapp.com/api/TicketStatus?recordId=[CreatedRecordId]"
           }
-        ]
+        ],
+        "AllowJsonp": ""
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
