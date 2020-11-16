@@ -1,10 +1,13 @@
 <module type="ActionGrid" version="05.10.04.00">
+    <contentKey />
     <moduleID>689</moduleID>
     <alignment />
     <alltabs>false</alltabs>
     <border />
+    <cachemethod />
     <cachetime>0</cachetime>
     <color />
+    <containersrc />
     <displayprint>true</displayprint>
     <displaysyndicate>false</displaysyndicate>
     <displaytitle>true</displaytitle>
@@ -17,10 +20,11 @@
     <modulepermissions />
     <title>Hair Color Listing</title>
     <startdate>0001-01-01T00:00:00</startdate>
-    <uniqueId>c46b6305-be28-4e71-8887-1f9865a3d8d7</uniqueId>
+    <uniqueId>ec6b17fa-66da-4d1d-ae59-78b1efcb66bd</uniqueId>
     <visibility>Maximized</visibility>
     <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
     <webslicettl>0</webslicettl>
+    <cultureCode />
     <modulesettings />
     <tabmodulesettings />
     <definition>Action Grid</definition>
