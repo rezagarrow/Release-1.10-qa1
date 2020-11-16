@@ -1,10 +1,13 @@
 <module type="ActionForm" version="05.10.10.00">
+    <contentKey />
     <moduleID>690</moduleID>
     <alignment />
     <alltabs>false</alltabs>
     <border />
+    <cachemethod />
     <cachetime>0</cachetime>
     <color />
+    <containersrc />
     <displayprint>true</displayprint>
     <displaysyndicate>false</displaysyndicate>
     <displaytitle>true</displaytitle>
@@ -17,10 +20,11 @@
     <modulepermissions />
     <title>Hair Color Add Existing Form</title>
     <startdate>0001-01-01T00:00:00</startdate>
-    <uniqueId>c1efe4c1-f593-4b2b-bdc4-ccc408e788e8</uniqueId>
+    <uniqueId>ec4f6b2d-2ec4-4976-aae3-1f0203bcc55b</uniqueId>
     <visibility>Maximized</visibility>
     <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
     <webslicettl>0</webslicettl>
+    <cultureCode />
     <modulesettings />
     <tabmodulesettings />
     <definition>Action Form</definition>
