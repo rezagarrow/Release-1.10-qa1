@@ -1,0 +1,11 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 72,
+  "Id": 24,
+  "VersionId": 24,
+  "Name": "Hair Color",
+  "PluralName": "Hair Colors",
+  "Icon": "table",
+  "Type": "UserCreated"
+}
