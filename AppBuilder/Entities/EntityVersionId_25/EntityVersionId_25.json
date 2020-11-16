@@ -1,0 +1,11 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 73,
+  "Id": 25,
+  "VersionId": 25,
+  "Name": "Person",
+  "PluralName": "People",
+  "Icon": "smile-beam",
+  "Type": "UserCreated"
+}
