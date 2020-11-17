@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "Id": 6,
+    "EntityVersionId": 26,
+    "RelationName": "DeleteLists",
+    "OrderIndex": 3
+  }
+]
