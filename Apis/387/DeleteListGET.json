@@ -3,7 +3,7 @@
   "Description": "Returns the information of a DeleteList record in JSON object format.",
   "HttpMethod": "GET",
   "IsEnabled": true,
-  "OrderIndex": 150,
+  "OrderIndex": 158,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
