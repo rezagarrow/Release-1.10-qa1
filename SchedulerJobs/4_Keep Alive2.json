@@ -39,7 +39,7 @@
       "OrderIndex": 0,
       "Parameters": {
         "InputParameters": "",
-        "URL": "https://app.quercusit.com/keepalive.aspx",
+        "URL": "https://release110-qa1.apps.plantanapp.com/keepalive.aspx",
         "UrlTokenContext": {
           "Expression": "",
           "Value": "Url",
