@@ -3,7 +3,7 @@
   "Description": "Deletes the provided DeleteList record",
   "HttpMethod": "DELETE",
   "IsEnabled": true,
-  "OrderIndex": 152,
+  "OrderIndex": 160,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
