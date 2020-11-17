@@ -31,15 +31,6 @@
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": []
-    },
-    {
-      "Name": "text2",
-      "IsDeleted": false,
-      "IsEnabled": true,
-      "OrderIndex": 2,
-      "Parameters": {},
-      "InputTypeStr": "text",
-      "Validations": []
     }
   ],
   "Actions": [
@@ -49,8 +40,7 @@
       "Parameters": {
         "OutputToken": "CreatedRecordId",
         "Primary": "[Primary]",
-        "text1": "[text1]",
-        "text2": "[text2]"
+        "text1": "[text1]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -90,10 +80,6 @@
           {
             "name": "text1",
             "value": "[CreatedRecord:text1]"
-          },
-          {
-            "name": "text2",
-            "value": "[CreatedRecord:text2]"
           }
         ],
         "Headers": [
