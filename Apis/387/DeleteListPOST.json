@@ -3,7 +3,7 @@
   "Description": "Creates a new record of type DeleteList",
   "HttpMethod": "POST",
   "IsEnabled": true,
-  "OrderIndex": 149,
+  "OrderIndex": 157,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
