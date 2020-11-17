@@ -1,0 +1,11 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 77,
+  "Id": 27,
+  "VersionId": 27,
+  "Name": "TestDelete",
+  "PluralName": "TestDeletes",
+  "Icon": "table",
+  "Type": "UserCreated"
+}
