@@ -56,10 +56,6 @@
           {
             "name": "Description",
             "value": "[Record:Description]"
-          },
-          {
-            "name": "PetName",
-            "value": "[Record:PetName]"
           }
         ],
         "Headers": []
