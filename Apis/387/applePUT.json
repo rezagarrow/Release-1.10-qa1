@@ -48,15 +48,6 @@
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": []
-    },
-    {
-      "Name": "text2",
-      "IsDeleted": false,
-      "IsEnabled": true,
-      "OrderIndex": 3,
-      "Parameters": {},
-      "InputTypeStr": "text",
-      "Validations": []
     }
   ],
   "Actions": [
@@ -66,8 +57,7 @@
       "Parameters": {
         "RecordId": "[RecordId]",
         "Primary": "[Primary]",
-        "text1": "[text1]",
-        "text2": "[text2]"
+        "text1": "[text1]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
