@@ -37,7 +37,7 @@
       }
     },
     "IsDeleted": false,
-    "IsRequired": false,
+    "IsRequired": true,
     "IsSearchable": false,
     "IsFilterable": false,
     "IsSortable": false,
