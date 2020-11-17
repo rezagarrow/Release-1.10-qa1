@@ -52,10 +52,6 @@
           {
             "name": "Name",
             "value": "[Record:Name]"
-          },
-          {
-            "name": "Description",
-            "value": "[Record:Description]"
           }
         ],
         "Headers": []
