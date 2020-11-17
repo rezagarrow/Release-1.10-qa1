@@ -3,7 +3,7 @@
   "Description": "Updates the information of the provided DeleteList record",
   "HttpMethod": "PUT",
   "IsEnabled": true,
-  "OrderIndex": 151,
+  "OrderIndex": 159,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
