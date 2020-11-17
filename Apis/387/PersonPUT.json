@@ -48,15 +48,6 @@
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": []
-    },
-    {
-      "Name": "PetName",
-      "IsDeleted": false,
-      "IsEnabled": true,
-      "OrderIndex": 3,
-      "Parameters": {},
-      "InputTypeStr": "text",
-      "Validations": []
     }
   ],
   "Actions": [
@@ -66,8 +57,7 @@
       "Parameters": {
         "RecordId": "[RecordId]",
         "Name": "[Name]",
-        "Description": "[Description]",
-        "PetName": "[PetName]"
+        "Description": "[Description]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
