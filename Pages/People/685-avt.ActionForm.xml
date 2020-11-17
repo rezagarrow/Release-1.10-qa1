@@ -7,7 +7,6 @@
     <cachemethod />
     <cachetime>0</cachetime>
     <color />
-    <containersrc />
     <displayprint>true</displayprint>
     <displaysyndicate>false</displaysyndicate>
     <displaytitle>true</displaytitle>
@@ -569,9 +568,10 @@
       &lt;ActionData&gt;{&quot;Data&quot;:[{&quot;name&quot;:&quot;isEdit&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;name&quot;:&quot;popupTitle&quot;,&quot;value&quot;:&quot;Edit Person&quot;}]}&lt;/ActionData&gt;
       &lt;ModuleId&gt;685&lt;/ModuleId&gt;
       &lt;EventName&gt;preinit&lt;/EventName&gt;
-      &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;PreInit.CheckEditMode&quot;}&lt;/MetadataJson&gt;
+      &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;PreInit.CheckEditMode&quot;,&quot;PAP_GeneratedCondition&quot;:&quot;!string.IsNullOrWhiteSpace([QueryString:PersonId=])&quot;}&lt;/MetadataJson&gt;
       &lt;Metadata&gt;
         &lt;PAP_InternalIdentifier&gt;PreInit.CheckEditMode&lt;/PAP_InternalIdentifier&gt;
+        &lt;PAP_GeneratedCondition&gt;!string.IsNullOrWhiteSpace([QueryString:PersonId=])&lt;/PAP_GeneratedCondition&gt;
       &lt;/Metadata&gt;
     &lt;/ActionInfo&gt;
     &lt;ActionInfo&gt;
