@@ -22,23 +22,6 @@
           "OrderIndex": 0
         }
       ]
-    },
-    {
-      "Name": "Description",
-      "IsDeleted": false,
-      "IsEnabled": true,
-      "OrderIndex": 1,
-      "Parameters": {},
-      "InputTypeStr": "text",
-      "Validations": [
-        {
-          "Data": "{\"Message\":\"Description is required.\"}",
-          "Type": "default-required",
-          "IsDeleted": false,
-          "IsEnabled": false,
-          "OrderIndex": 0
-        }
-      ]
     }
   ],
   "Actions": [
@@ -47,8 +30,7 @@
       "OrderIndex": 0,
       "Parameters": {
         "OutputToken": "CreatedRecordId",
-        "Name": "[Name]",
-        "Description": "[Description]"
+        "Name": "[Name]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -84,10 +66,6 @@
           {
             "name": "Name",
             "value": "[CreatedRecord:Name]"
-          },
-          {
-            "name": "Description",
-            "value": "[CreatedRecord:Description]"
           }
         ],
         "Headers": [
