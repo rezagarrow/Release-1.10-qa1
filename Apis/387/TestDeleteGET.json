@@ -3,7 +3,7 @@
   "Description": "Returns the information of a TestDelete record in JSON object format.",
   "HttpMethod": "GET",
   "IsEnabled": true,
-  "OrderIndex": 154,
+  "OrderIndex": 162,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -52,10 +52,6 @@
           {
             "name": "NameText",
             "value": "[Record:NameText]"
-          },
-          {
-            "name": "DescriptionText",
-            "value": "[Record:DescriptionText]"
           }
         ],
         "Headers": []
