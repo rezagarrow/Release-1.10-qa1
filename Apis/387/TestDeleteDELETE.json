@@ -3,7 +3,7 @@
   "Description": "Deletes the provided TestDelete record",
   "HttpMethod": "DELETE",
   "IsEnabled": true,
-  "OrderIndex": 156,
+  "OrderIndex": 164,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
