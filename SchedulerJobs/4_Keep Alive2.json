@@ -1,0 +1,89 @@
+{
+  "ApiId": "da41fd9e736092bf4b575c",
+  "ContextPortal": 0,
+  "IsDebug": false,
+  "IsEnabled": true,
+  "Name": "Keep Alive2",
+  "Triggers": [
+    {
+      "IsEnabled": true,
+      "TriggerDefId": "RepeatInterval",
+      "Parameters": {
+        "Start": {
+          "Date": "",
+          "Time": "12:00:00AM"
+        },
+        "Interval": {
+          "Qty": "5",
+          "Unit": {
+            "Value": "Minutes",
+            "IsExpression": false,
+            "Parameters": {}
+          }
+        },
+        "SkipIfRunning": "",
+        "OnMissfire": {
+          "Expression": "",
+          "Value": "FireNow",
+          "IsExpression": false,
+          "Parameters": {}
+        }
+      }
+    }
+  ],
+  "Actions": [
+    {
+      "ActionType": "PostData",
+      "ExecutionType": "OnExecute",
+      "IsEnabled": true,
+      "OrderIndex": 0,
+      "Parameters": {
+        "InputParameters": "",
+        "URL": "https://app.quercusit.com/keepalive.aspx",
+        "UrlTokenContext": {
+          "Expression": "",
+          "Value": "Url",
+          "IsExpression": false,
+          "Parameters": {}
+        },
+        "UseSSL": "",
+        "Timeout": "",
+        "HttpMethod": {
+          "Expression": "",
+          "Value": "GET",
+          "IsExpression": false,
+          "Parameters": {}
+        },
+        "Data": "",
+        "DoNotEscapeTokens": "",
+        "DisableReferer": "",
+        "Headers": "",
+        "UseDNNProxySettings": "",
+        "AddCurrentCookies": "",
+        "OutputParameters": "",
+        "CookieContainerToken": "",
+        "OutputTokenName": "result",
+        "OutputHeaders": "",
+        "IgnoreErrors": "",
+        "Events": "",
+        "OnError": [
+          {
+            "Id": -1,
+            "EventName": "error",
+            "Parameters": {
+              "Message": "Keep Alive Failed"
+            },
+            "ActionType": "LogError",
+            "Definition": {
+              "IsClientAction": false,
+              "Settings": {
+                "Group": "Logging"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "OnErrorActions": []
+}
