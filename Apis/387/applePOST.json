@@ -22,15 +22,6 @@
           "OrderIndex": 0
         }
       ]
-    },
-    {
-      "Name": "text1",
-      "IsDeleted": false,
-      "IsEnabled": true,
-      "OrderIndex": 1,
-      "Parameters": {},
-      "InputTypeStr": "text",
-      "Validations": []
     }
   ],
   "Actions": [
@@ -39,8 +30,7 @@
       "OrderIndex": 0,
       "Parameters": {
         "OutputToken": "CreatedRecordId",
-        "Primary": "[Primary]",
-        "text1": "[text1]"
+        "Primary": "[Primary]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -76,10 +66,6 @@
           {
             "name": "Primary",
             "value": "[CreatedRecord:Primary]"
-          },
-          {
-            "name": "text1",
-            "value": "[CreatedRecord:text1]"
           }
         ],
         "Headers": [
