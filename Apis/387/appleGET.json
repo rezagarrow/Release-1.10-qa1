@@ -52,10 +52,6 @@
           {
             "name": "Primary",
             "value": "[Record:Primary]"
-          },
-          {
-            "name": "text1",
-            "value": "[Record:text1]"
           }
         ],
         "Headers": []
