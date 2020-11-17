@@ -56,10 +56,6 @@
           {
             "name": "text1",
             "value": "[Record:text1]"
-          },
-          {
-            "name": "text2",
-            "value": "[Record:text2]"
           }
         ],
         "Headers": []
