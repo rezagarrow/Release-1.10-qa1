@@ -1,0 +1,11 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 76,
+  "Id": 26,
+  "VersionId": 26,
+  "Name": "DeleteList",
+  "PluralName": "DeleteLists",
+  "Icon": "table",
+  "Type": "UserCreated"
+}
