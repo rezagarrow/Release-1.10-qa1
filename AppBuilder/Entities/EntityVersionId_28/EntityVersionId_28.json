@@ -1,0 +1,11 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 79,
+  "Id": 28,
+  "VersionId": 28,
+  "Name": "apple",
+  "PluralName": "apples",
+  "Icon": "table",
+  "Type": "UserCreated"
+}
