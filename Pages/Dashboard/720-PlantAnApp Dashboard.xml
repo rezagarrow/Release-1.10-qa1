@@ -1,0 +1,39 @@
+<module type="PlantAnAppDashboard" version="01.10.10.00">
+    <moduleID>720</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod />
+    <cachetime>0</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <iswebslice>false</iswebslice>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+    </modulepermissions>
+    <title>PlantAnApp Dashboard</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>c4a8d146-a5e4-48f6-9fa9-24d1eabbdd9e</uniqueId>
+    <visibility>Maximized</visibility>
+    <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
+    <webslicetitle />
+    <webslicettl>0</webslicettl>
+    <cultureCode>en-US</cultureCode>
+    <modulesettings />
+    <tabmodulesettings />
+    <definition>PlantAnAppDashboard</definition>
+    <moduledefinition>PlantAnApp Dashboard</moduledefinition>
+</module>
