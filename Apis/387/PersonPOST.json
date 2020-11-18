@@ -24,19 +24,10 @@
       ]
     },
     {
-      "Name": "Birthday",
-      "IsDeleted": false,
-      "IsEnabled": true,
-      "OrderIndex": 1,
-      "Parameters": {},
-      "InputTypeStr": "text",
-      "Validations": []
-    },
-    {
       "Name": "HairColor",
       "IsDeleted": false,
       "IsEnabled": true,
-      "OrderIndex": 2,
+      "OrderIndex": 1,
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": [
@@ -48,6 +39,15 @@
           "OrderIndex": 0
         }
       ]
+    },
+    {
+      "Name": "Birthday",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 2,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -57,8 +57,8 @@
       "Parameters": {
         "OutputToken": "CreatedRecordId",
         "Name": "[Name]",
-        "Birthday": "[Birthday]",
-        "HairColor": "[HairColor]"
+        "HairColor": "[HairColor]",
+        "Birthday": "[Birthday]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -96,12 +96,12 @@
             "value": "[CreatedRecord:Name]"
           },
           {
-            "name": "Birthday",
-            "value": "[CreatedRecord:Birthday]"
-          },
-          {
             "name": "HairColor",
             "value": "[CreatedRecord:HairColor]"
+          },
+          {
+            "name": "Birthday",
+            "value": "[CreatedRecord:Birthday]"
           }
         ],
         "Headers": [
