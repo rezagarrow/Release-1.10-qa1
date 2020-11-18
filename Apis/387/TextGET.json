@@ -3,7 +3,7 @@
   "Description": "Returns the information of a Text record in JSON object format.",
   "HttpMethod": "GET",
   "IsEnabled": true,
-  "OrderIndex": 90,
+  "OrderIndex": 186,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
