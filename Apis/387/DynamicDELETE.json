@@ -3,7 +3,7 @@
   "Description": "Deletes the provided Dynamic record",
   "HttpMethod": "DELETE",
   "IsEnabled": true,
-  "OrderIndex": 116,
+  "OrderIndex": 196,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
