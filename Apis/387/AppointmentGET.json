@@ -3,7 +3,7 @@
   "Description": "Returns the information of a Appointment record in JSON object format.",
   "HttpMethod": "GET",
   "IsEnabled": true,
-  "OrderIndex": 106,
+  "OrderIndex": 182,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -54,16 +54,16 @@
             "value": "[Record:Name]"
           },
           {
+            "name": "Type",
+            "value": "[Record:Type]"
+          },
+          {
             "name": "When",
             "value": "[Record:When]"
           },
           {
             "name": "Description",
             "value": "[Record:Description]"
-          },
-          {
-            "name": "Type",
-            "value": "[Record:Type]"
           }
         ],
         "Headers": []
