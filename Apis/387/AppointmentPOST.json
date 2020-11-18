@@ -7,37 +7,10 @@
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
-      "Name": "Description",
-      "IsDeleted": false,
-      "IsEnabled": true,
-      "OrderIndex": 0,
-      "Parameters": {},
-      "InputTypeStr": "text",
-      "Validations": []
-    },
-    {
-      "Name": "When",
-      "IsDeleted": false,
-      "IsEnabled": true,
-      "OrderIndex": 1,
-      "Parameters": {},
-      "InputTypeStr": "text",
-      "Validations": []
-    },
-    {
-      "Name": "Type",
-      "IsDeleted": false,
-      "IsEnabled": true,
-      "OrderIndex": 2,
-      "Parameters": {},
-      "InputTypeStr": "text",
-      "Validations": []
-    },
-    {
       "Name": "Name",
       "IsDeleted": false,
       "IsEnabled": true,
-      "OrderIndex": 3,
+      "OrderIndex": 0,
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": [
@@ -49,6 +22,33 @@
           "OrderIndex": 0
         }
       ]
+    },
+    {
+      "Name": "Type",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 1,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "When",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 2,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "Description",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 3,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -57,10 +57,10 @@
       "OrderIndex": 0,
       "Parameters": {
         "OutputToken": "CreatedRecordId",
-        "Description": "[Description]",
-        "When": "[When]",
+        "Name": "[Name]",
         "Type": "[Type]",
-        "Name": "[Name]"
+        "When": "[When]",
+        "Description": "[Description]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -94,20 +94,20 @@
             "value": "[CreatedRecordId]"
           },
           {
-            "name": "Description",
-            "value": "[CreatedRecord:Description]"
-          },
-          {
-            "name": "When",
-            "value": "[CreatedRecord:When]"
+            "name": "Name",
+            "value": "[CreatedRecord:Name]"
           },
           {
             "name": "Type",
             "value": "[CreatedRecord:Type]"
           },
           {
-            "name": "Name",
-            "value": "[CreatedRecord:Name]"
+            "name": "When",
+            "value": "[CreatedRecord:When]"
+          },
+          {
+            "name": "Description",
+            "value": "[CreatedRecord:Description]"
           }
         ],
         "Headers": [
