@@ -50,16 +50,16 @@
             "value": "[RecordId]"
           },
           {
-            "name": "Name",
-            "value": "[Record:Name]"
+            "name": "When",
+            "value": "[Record:When]"
           },
           {
             "name": "Type",
             "value": "[Record:Type]"
           },
           {
-            "name": "When",
-            "value": "[Record:When]"
+            "name": "Name",
+            "value": "[Record:Name]"
           },
           {
             "name": "Description",
