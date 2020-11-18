@@ -24,37 +24,10 @@
       ]
     },
     {
-      "Name": "Description",
-      "IsDeleted": false,
-      "IsEnabled": true,
-      "OrderIndex": 1,
-      "Parameters": {},
-      "InputTypeStr": "text",
-      "Validations": []
-    },
-    {
-      "Name": "When",
-      "IsDeleted": false,
-      "IsEnabled": true,
-      "OrderIndex": 2,
-      "Parameters": {},
-      "InputTypeStr": "text",
-      "Validations": []
-    },
-    {
-      "Name": "Type",
-      "IsDeleted": false,
-      "IsEnabled": true,
-      "OrderIndex": 3,
-      "Parameters": {},
-      "InputTypeStr": "text",
-      "Validations": []
-    },
-    {
       "Name": "Name",
       "IsDeleted": false,
       "IsEnabled": true,
-      "OrderIndex": 4,
+      "OrderIndex": 1,
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": [
@@ -66,6 +39,33 @@
           "OrderIndex": 0
         }
       ]
+    },
+    {
+      "Name": "Type",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 2,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "When",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 3,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "Description",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 4,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -74,10 +74,10 @@
       "OrderIndex": 0,
       "Parameters": {
         "RecordId": "[RecordId]",
-        "Description": "[Description]",
-        "When": "[When]",
+        "Name": "[Name]",
         "Type": "[Type]",
-        "Name": "[Name]"
+        "When": "[When]",
+        "Description": "[Description]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
