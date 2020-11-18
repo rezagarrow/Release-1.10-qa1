@@ -3,7 +3,7 @@
   "Description": "Creates a new record of type Appointment",
   "HttpMethod": "POST",
   "IsEnabled": true,
-  "OrderIndex": 105,
+  "OrderIndex": 181,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "Name": "When",
+      "Name": "Type",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 1,
@@ -33,7 +33,7 @@
       "Validations": []
     },
     {
-      "Name": "Description",
+      "Name": "When",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 2,
@@ -42,7 +42,7 @@
       "Validations": []
     },
     {
-      "Name": "Type",
+      "Name": "Description",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 3,
@@ -58,9 +58,9 @@
       "Parameters": {
         "OutputToken": "CreatedRecordId",
         "Name": "[Name]",
+        "Type": "[Type]",
         "When": "[When]",
-        "Description": "[Description]",
-        "Type": "[Type]"
+        "Description": "[Description]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -98,16 +98,16 @@
             "value": "[CreatedRecord:Name]"
           },
           {
+            "name": "Type",
+            "value": "[CreatedRecord:Type]"
+          },
+          {
             "name": "When",
             "value": "[CreatedRecord:When]"
           },
           {
             "name": "Description",
             "value": "[CreatedRecord:Description]"
-          },
-          {
-            "name": "Type",
-            "value": "[CreatedRecord:Type]"
           }
         ],
         "Headers": [
