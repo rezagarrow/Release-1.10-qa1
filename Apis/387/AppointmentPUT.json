@@ -24,7 +24,7 @@
       ]
     },
     {
-      "Name": "When",
+      "Name": "Description",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 1,
@@ -33,7 +33,7 @@
       "Validations": []
     },
     {
-      "Name": "Type",
+      "Name": "When",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 2,
@@ -42,10 +42,19 @@
       "Validations": []
     },
     {
-      "Name": "Name",
+      "Name": "Type",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 3,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "Name",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 4,
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": [
@@ -57,15 +66,6 @@
           "OrderIndex": 0
         }
       ]
-    },
-    {
-      "Name": "Description",
-      "IsDeleted": false,
-      "IsEnabled": true,
-      "OrderIndex": 4,
-      "Parameters": {},
-      "InputTypeStr": "text",
-      "Validations": []
     }
   ],
   "Actions": [
@@ -74,10 +74,10 @@
       "OrderIndex": 0,
       "Parameters": {
         "RecordId": "[RecordId]",
+        "Description": "[Description]",
         "When": "[When]",
         "Type": "[Type]",
-        "Name": "[Name]",
-        "Description": "[Description]"
+        "Name": "[Name]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
