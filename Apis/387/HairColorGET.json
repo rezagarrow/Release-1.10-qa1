@@ -3,7 +3,7 @@
   "Description": "Returns the information of a Hair Color record in JSON object format.",
   "HttpMethod": "GET",
   "IsEnabled": true,
-  "OrderIndex": 142,
+  "OrderIndex": 174,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -48,6 +48,14 @@
           {
             "name": "Id",
             "value": "[RecordId]"
+          },
+          {
+            "name": "Style",
+            "value": "[Record:Style]"
+          },
+          {
+            "name": "LastHaircut",
+            "value": "[Record:LastHaircut]"
           },
           {
             "name": "HairColor",
