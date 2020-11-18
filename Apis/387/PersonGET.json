@@ -54,12 +54,12 @@
             "value": "[Record:Name]"
           },
           {
-            "name": "Birthday",
-            "value": "[Record:Birthday]"
-          },
-          {
             "name": "HairColor",
             "value": "[Record:HairColor]"
+          },
+          {
+            "name": "Birthday",
+            "value": "[Record:Birthday]"
           }
         ],
         "Headers": []
