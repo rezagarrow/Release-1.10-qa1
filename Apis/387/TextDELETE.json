@@ -3,7 +3,7 @@
   "Description": "Deletes the provided Text record",
   "HttpMethod": "DELETE",
   "IsEnabled": true,
-  "OrderIndex": 92,
+  "OrderIndex": 188,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
