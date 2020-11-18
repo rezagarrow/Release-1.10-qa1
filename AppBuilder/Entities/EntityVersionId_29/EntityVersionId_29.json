@@ -1,0 +1,11 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 86,
+  "Id": 29,
+  "VersionId": 29,
+  "Name": "Permissions",
+  "PluralName": "Permissions",
+  "Icon": "table",
+  "Type": "UserCreated"
+}
