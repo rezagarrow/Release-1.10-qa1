@@ -3,7 +3,7 @@
   "Description": "Deletes the provided Hair Color record",
   "HttpMethod": "DELETE",
   "IsEnabled": true,
-  "OrderIndex": 144,
+  "OrderIndex": 176,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
