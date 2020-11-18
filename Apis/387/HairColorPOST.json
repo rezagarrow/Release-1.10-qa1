@@ -3,14 +3,32 @@
   "Description": "Creates a new record of type Hair Color",
   "HttpMethod": "POST",
   "IsEnabled": true,
-  "OrderIndex": 141,
+  "OrderIndex": 173,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
+    {
+      "Name": "Style",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 0,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "LastHaircut",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 1,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
     {
       "Name": "HairColor",
       "IsDeleted": false,
       "IsEnabled": true,
-      "OrderIndex": 0,
+      "OrderIndex": 2,
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": [
@@ -30,6 +48,8 @@
       "OrderIndex": 0,
       "Parameters": {
         "OutputToken": "CreatedRecordId",
+        "Style": "[Style]",
+        "LastHaircut": "[LastHaircut]",
         "HairColor": "[HairColor]"
       },
       "IsEnabled": true,
@@ -62,6 +82,14 @@
           {
             "name": "Id",
             "value": "[CreatedRecordId]"
+          },
+          {
+            "name": "Style",
+            "value": "[CreatedRecord:Style]"
+          },
+          {
+            "name": "LastHaircut",
+            "value": "[CreatedRecord:LastHaircut]"
           },
           {
             "name": "HairColor",
