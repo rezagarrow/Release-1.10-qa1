@@ -18,7 +18,8 @@
     "IsRequired": true,
     "IsSearchable": true,
     "IsFilterable": false,
-    "IsSortable": false
+    "IsSortable": false,
+    "OrderIndex": 3
   },
   {
     "Id": 44,
@@ -39,7 +40,8 @@
     "IsRequired": false,
     "IsSearchable": true,
     "IsFilterable": false,
-    "IsSortable": true
+    "IsSortable": true,
+    "OrderIndex": 1
   },
   {
     "Id": 45,
@@ -60,7 +62,8 @@
     "IsRequired": false,
     "IsSearchable": true,
     "IsFilterable": false,
-    "IsSortable": false
+    "IsSortable": false,
+    "OrderIndex": 4
   },
   {
     "Id": 47,
@@ -81,6 +84,7 @@
     "IsRequired": false,
     "IsSearchable": false,
     "IsFilterable": false,
-    "IsSortable": false
+    "IsSortable": false,
+    "OrderIndex": 2
   }
 ]
