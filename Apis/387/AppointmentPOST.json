@@ -7,21 +7,13 @@
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
-      "Name": "Name",
+      "Name": "When",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 0,
       "Parameters": {},
       "InputTypeStr": "text",
-      "Validations": [
-        {
-          "Data": "{\"Message\":\"Name is required.\"}",
-          "Type": "default-required",
-          "IsDeleted": false,
-          "IsEnabled": false,
-          "OrderIndex": 0
-        }
-      ]
+      "Validations": []
     },
     {
       "Name": "Type",
@@ -33,13 +25,21 @@
       "Validations": []
     },
     {
-      "Name": "When",
+      "Name": "Name",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 2,
       "Parameters": {},
       "InputTypeStr": "text",
-      "Validations": []
+      "Validations": [
+        {
+          "Data": "{\"Message\":\"Name is required.\"}",
+          "Type": "default-required",
+          "IsDeleted": false,
+          "IsEnabled": false,
+          "OrderIndex": 0
+        }
+      ]
     },
     {
       "Name": "Description",
@@ -57,9 +57,9 @@
       "OrderIndex": 0,
       "Parameters": {
         "OutputToken": "CreatedRecordId",
-        "Name": "[Name]",
-        "Type": "[Type]",
         "When": "[When]",
+        "Type": "[Type]",
+        "Name": "[Name]",
         "Description": "[Description]"
       },
       "IsEnabled": true,
@@ -94,16 +94,16 @@
             "value": "[CreatedRecordId]"
           },
           {
-            "name": "Name",
-            "value": "[CreatedRecord:Name]"
+            "name": "When",
+            "value": "[CreatedRecord:When]"
           },
           {
             "name": "Type",
             "value": "[CreatedRecord:Type]"
           },
           {
-            "name": "When",
-            "value": "[CreatedRecord:When]"
+            "name": "Name",
+            "value": "[CreatedRecord:Name]"
           },
           {
             "name": "Description",
