@@ -3,7 +3,7 @@
   "Description": "Creates a new record of type Person",
   "HttpMethod": "POST",
   "IsEnabled": true,
-  "OrderIndex": 169,
+  "OrderIndex": 177,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -22,6 +22,32 @@
           "OrderIndex": 0
         }
       ]
+    },
+    {
+      "Name": "Birthday",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 1,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "HairColor",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 2,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": [
+        {
+          "Data": "{\"Message\":\"HairColor is required.\"}",
+          "Type": "default-required",
+          "IsDeleted": false,
+          "IsEnabled": false,
+          "OrderIndex": 0
+        }
+      ]
     }
   ],
   "Actions": [
@@ -30,7 +56,9 @@
       "OrderIndex": 0,
       "Parameters": {
         "OutputToken": "CreatedRecordId",
-        "Name": "[Name]"
+        "Name": "[Name]",
+        "Birthday": "[Birthday]",
+        "HairColor": "[HairColor]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -66,6 +94,14 @@
           {
             "name": "Name",
             "value": "[CreatedRecord:Name]"
+          },
+          {
+            "name": "Birthday",
+            "value": "[CreatedRecord:Birthday]"
+          },
+          {
+            "name": "HairColor",
+            "value": "[CreatedRecord:HairColor]"
           }
         ],
         "Headers": [
