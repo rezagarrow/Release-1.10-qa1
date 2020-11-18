@@ -3,7 +3,7 @@
   "Description": "Updates the information of the provided Appointment record",
   "HttpMethod": "PUT",
   "IsEnabled": true,
-  "OrderIndex": 107,
+  "OrderIndex": 183,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "Name": "When",
+      "Name": "Type",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 2,
@@ -50,7 +50,7 @@
       "Validations": []
     },
     {
-      "Name": "Description",
+      "Name": "When",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 3,
@@ -59,7 +59,7 @@
       "Validations": []
     },
     {
-      "Name": "Type",
+      "Name": "Description",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 4,
@@ -75,9 +75,9 @@
       "Parameters": {
         "RecordId": "[RecordId]",
         "Name": "[Name]",
+        "Type": "[Type]",
         "When": "[When]",
-        "Description": "[Description]",
-        "Type": "[Type]"
+        "Description": "[Description]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
