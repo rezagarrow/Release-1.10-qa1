@@ -41,19 +41,10 @@
       ]
     },
     {
-      "Name": "Birthday",
-      "IsDeleted": false,
-      "IsEnabled": true,
-      "OrderIndex": 2,
-      "Parameters": {},
-      "InputTypeStr": "text",
-      "Validations": []
-    },
-    {
       "Name": "HairColor",
       "IsDeleted": false,
       "IsEnabled": true,
-      "OrderIndex": 3,
+      "OrderIndex": 2,
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": [
@@ -65,6 +56,15 @@
           "OrderIndex": 0
         }
       ]
+    },
+    {
+      "Name": "Birthday",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 3,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -74,8 +74,8 @@
       "Parameters": {
         "RecordId": "[RecordId]",
         "Name": "[Name]",
-        "Birthday": "[Birthday]",
-        "HairColor": "[HairColor]"
+        "HairColor": "[HairColor]",
+        "Birthday": "[Birthday]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
