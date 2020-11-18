@@ -50,6 +50,10 @@
             "value": "[RecordId]"
           },
           {
+            "name": "Description",
+            "value": "[Record:Description]"
+          },
+          {
             "name": "When",
             "value": "[Record:When]"
           },
@@ -60,10 +64,6 @@
           {
             "name": "Name",
             "value": "[Record:Name]"
-          },
-          {
-            "name": "Description",
-            "value": "[Record:Description]"
           }
         ],
         "Headers": []
