@@ -3,7 +3,7 @@
   "Description": "Returns the information of a Person record in JSON object format.",
   "HttpMethod": "GET",
   "IsEnabled": true,
-  "OrderIndex": 170,
+  "OrderIndex": 178,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -52,6 +52,14 @@
           {
             "name": "Name",
             "value": "[Record:Name]"
+          },
+          {
+            "name": "Birthday",
+            "value": "[Record:Birthday]"
+          },
+          {
+            "name": "HairColor",
+            "value": "[Record:HairColor]"
           }
         ],
         "Headers": []
