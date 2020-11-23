@@ -1,0 +1,20 @@
+{
+  "id": 2,
+  "namespace": {
+    "id": 3,
+    "name": "test"
+  },
+  "name": "NewToken",
+  "description": "",
+  "parser": "<parser><type>string</type><replace>false</replace><decodeHtml>false</decodeHtml></parser>",
+  "defaultValue": "",
+  "cacheTime": 0,
+  "cacheLayer": "Global",
+  "src": {
+    "sql": "select count(*) from users",
+    "defaultColumn": "",
+    "columns": "",
+    "connectionString": "",
+    "type": "db"
+  }
+}
