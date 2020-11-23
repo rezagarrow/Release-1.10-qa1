@@ -1,0 +1,27 @@
+{
+  "ApiId": "22448cbcdbd91d28a3ce4d",
+  "ContextPortal": -1,
+  "IsDebug": false,
+  "IsEnabled": false,
+  "Name": "DO-1211 - insert",
+  "Triggers": [],
+  "Actions": [
+    {
+      "ActionType": "RunSql",
+      "ExecutionType": "OnExecute",
+      "IsEnabled": true,
+      "OrderIndex": 0,
+      "Parameters": {
+        "ConnectionString": "",
+        "QueryTimeout": "",
+        "SqlQuery": "insert into Table_dt1 (d) \nvalues(getdate()),\n(getdate()),\n(getdate()),\n(getdate()),\n(getdate())",
+        "BindTokens": "",
+        "OutputTokenName": "",
+        "ExtractColumns": "",
+        "OnError": [],
+        "ShowErrors": false
+      }
+    }
+  ],
+  "OnErrorActions": []
+}
