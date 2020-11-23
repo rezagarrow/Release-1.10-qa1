@@ -85,5 +85,15 @@
       }
     }
   ],
-  "OnErrorActions": []
+  "OnErrorActions": [
+    {
+      "ActionType": "LogError",
+      "ExecutionType": "OnError",
+      "IsEnabled": true,
+      "OrderIndex": 1,
+      "Parameters": {
+        "Message": "Scheduler failed to run"
+      }
+    }
+  ]
 }
