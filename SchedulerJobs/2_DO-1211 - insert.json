@@ -2,7 +2,7 @@
   "ApiId": "22448cbcdbd91d28a3ce4d",
   "ContextPortal": -1,
   "IsDebug": false,
-  "IsEnabled": false,
+  "IsEnabled": true,
   "Name": "DO-1211 - insert",
   "Triggers": [],
   "Actions": [
@@ -14,7 +14,7 @@
       "Parameters": {
         "ConnectionString": "",
         "QueryTimeout": "",
-        "SqlQuery": "insert into Table_dt1 (d) \nvalues(getdate()),\n(getdate()),\n(getdate()),\n(getdate()),\n(getdate())",
+        "SqlQuery": "insert into Table_dt1 (d) \nvalues(getdate())",
         "BindTokens": "",
         "OutputTokenName": "",
         "ExtractColumns": "",
