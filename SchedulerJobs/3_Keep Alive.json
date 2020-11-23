@@ -1,7 +1,7 @@
 {
   "ApiId": "8c4047bea85376850b3ed6",
   "ContextPortal": 0,
-  "IsDebug": false,
+  "IsDebug": true,
   "IsEnabled": true,
   "Name": "Keep Alive",
   "Triggers": [
