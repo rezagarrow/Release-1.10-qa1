@@ -4,7 +4,33 @@
   "IsDebug": false,
   "IsEnabled": true,
   "Name": "DO-1211 - insert",
-  "Triggers": [],
+  "Triggers": [
+    {
+      "IsEnabled": true,
+      "TriggerDefId": "RepeatInterval",
+      "Parameters": {
+        "Start": {
+          "Date": "",
+          "Time": "12:00:00AM"
+        },
+        "Interval": {
+          "Qty": "3",
+          "Unit": {
+            "Value": "Seconds",
+            "IsExpression": false,
+            "Parameters": {}
+          }
+        },
+        "SkipIfRunning": "",
+        "OnMissfire": {
+          "Expression": "",
+          "Value": "",
+          "IsExpression": false,
+          "Parameters": {}
+        }
+      }
+    }
+  ],
   "Actions": [
     {
       "ActionType": "RunSql",
