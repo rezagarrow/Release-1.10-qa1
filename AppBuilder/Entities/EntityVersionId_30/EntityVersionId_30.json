@@ -1,0 +1,11 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 87,
+  "Id": 30,
+  "VersionId": 30,
+  "Name": "E1",
+  "PluralName": "E1s",
+  "Icon": "table",
+  "Type": "UserCreated"
+}
