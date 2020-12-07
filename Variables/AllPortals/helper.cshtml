@@ -1,6 +1,8 @@
 @inherits avt.MyTokens.Core.ParsingEngine.RazorTemplate
-@function string caca(string a){
-    return a
+@functions{
+    public string caca(string a){
+        return a
+    }
 }
 
 @caca(TknParams.Input.Value.ToString())
