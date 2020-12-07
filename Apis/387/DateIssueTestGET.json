@@ -10,6 +10,7 @@
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 0,
+      "Description": "Need to be ISO Date",
       "Parameters": {
         "Value": ""
       },
@@ -40,89 +41,6 @@
         "Criteria": "",
         "Headers": "",
         "AllowJsonp": ""
-      },
-      "IsEnabled": true,
-      "ExecutionType": "OnExecute",
-      "Metadata": {}
-    },
-    {
-      "ActionType": "LoadEntitiesFromSql",
-      "OrderIndex": 2,
-      "Parameters": {
-        "ConnectionString": "",
-        "SqlQuery": "select cast(cast(@dt as datetimeoffset(7)) as nvarchar(50)) as dt",
-        "BindTokens": [
-          {
-            "value": "[Date]",
-            "name": "dt"
-          }
-        ],
-        "EntityName": "Rec",
-        "EntityProps": "",
-        "OnError": []
-      },
-      "IsEnabled": true,
-      "ExecutionType": "OnExecute",
-      "Metadata": {}
-    },
-    {
-      "ActionType": "ExecuteActionsOnEntityList",
-      "OrderIndex": 3,
-      "Parameters": {
-        "EntityName": "Rec",
-        "Filters": "",
-        "ContextBehavior": {
-          "Expression": "",
-          "Value": "",
-          "IsExpression": false,
-          "Parameters": {}
-        },
-        "ActionList": [
-          {
-            "Id": -1,
-            "$_uid": "action16073349622343566",
-            "EventName": "click",
-            "Parameters": {
-              "ConnectionString": "",
-              "Name": "[Guid:new]",
-              "Date": "[Rec:dt]",
-              "OutputToken": ""
-            },
-            "ActionType": "PlantAnApp.CreateEntity.0.DateIssue",
-            "$_isOpen": false,
-            "$_isLoaded": true,
-            "$_isFocus": true,
-            "Definition": {
-              "IsClientAction": false,
-              "Settings": {
-                "Group": "PlantAnApp",
-                "EntityVersionId": "32"
-              }
-            }
-          },
-          {
-            "Id": -1,
-            "$_uid": "action16073349622352189",
-            "EventName": "click",
-            "Parameters": {
-              "Content": "[Rec:dt] // [{'dt':'[Date]'}]",
-              "HttpCode": "200 OK",
-              "Headers": ""
-            },
-            "ActionType": "RawResponse",
-            "$_isOpen": false,
-            "$_isLoaded": true,
-            "$_isFocus": true,
-            "Definition": {
-              "IsClientAction": false,
-              "Settings": {
-                "Group": "Output"
-              }
-            }
-          }
-        ],
-        "ContinueOnError": "",
-        "OnError": []
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
