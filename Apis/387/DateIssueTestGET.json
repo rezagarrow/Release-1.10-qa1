@@ -36,8 +36,13 @@
       "OrderIndex": 1,
       "Parameters": {
         "ConnectionString": "",
-        "SqlQuery": "select '[Date]' as dt",
-        "BindTokens": "",
+        "SqlQuery": "select cast(cast(@dt as datetimeoffset(7)) as nvarchar(50)) as dt",
+        "BindTokens": [
+          {
+            "value": "[Date]",
+            "name": "dt"
+          }
+        ],
         "EntityName": "Rec",
         "EntityProps": "",
         "OnError": []
