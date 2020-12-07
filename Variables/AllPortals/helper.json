@@ -1,0 +1,19 @@
+{
+  "id": 3,
+  "namespace": {
+    "id": 2,
+    "name": "AllPortals"
+  },
+  "name": "helper",
+  "description": "",
+  "parser": "<parser><type>string</type><replace>false</replace><decodeHtml>false</decodeHtml></parser>",
+  "defaultValue": "",
+  "cacheTime": 0,
+  "cacheLayer": "Global",
+  "src": {
+    "language": "csharp",
+    "additionalAssemblies": "",
+    "debug": false,
+    "type": "razor"
+  }
+}
