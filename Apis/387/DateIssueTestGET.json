@@ -45,7 +45,27 @@
         "ActionList": [
           {
             "Id": -1,
-            "$_uid": "action1607333805448173",
+            "$_uid": "action16073339009133441",
+            "EventName": "click",
+            "Parameters": {
+              "Content": "[Rec:dt] // [{'dt':'[Date]'}]",
+              "HttpCode": "200 OK",
+              "Headers": ""
+            },
+            "ActionType": "RawResponse",
+            "$_isOpen": true,
+            "$_isLoaded": true,
+            "$_isFocus": true,
+            "Definition": {
+              "IsClientAction": false,
+              "Settings": {
+                "Group": "Output"
+              }
+            }
+          },
+          {
+            "Id": -1,
+            "$_uid": "action16073339009138472",
             "EventName": "click",
             "Parameters": {
               "ConnectionString": "",
@@ -54,7 +74,7 @@
               "OutputToken": ""
             },
             "ActionType": "PlantAnApp.CreateEntity.0.DateIssue",
-            "$_isOpen": true,
+            "$_isOpen": false,
             "$_isLoaded": true,
             "$_isFocus": true,
             "Definition": {
