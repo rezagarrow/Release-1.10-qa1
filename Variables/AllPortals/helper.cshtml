@@ -1,14 +1,6 @@
 @inherits avt.MyTokens.Core.ParsingEngine.RazorTemplate
-@{
-    var tabs = DotNetNuke.Entities.Tabs.TabController.Instance.GetTabsByPortal(Portal.PortalId);
+@helper caca(string a){
+    @a
 }
-@helper GenerateTreeStructure(DotNetNuke.Entities.Tabs.TabCollection tabs, int parentTabId = -1) {
-    var levelTabs = tabs.WithParentId(parentTabId);
-    foreach (var tab in levelTabs) {
-        <a href="@tab.FullUrl">@tab.TabName</a>
-        if (tab.HasChildren) {
-            GenerateTreeStructure(tabs, tab.TabID);
-        }
-    }
-}
-@GenerateTreeStructure(tabs)
+
+@caca(TknParams.Input.Value.ToString())
