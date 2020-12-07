@@ -21,7 +21,7 @@
     {
       "ActionType": "LoadEntitiesFromJson",
       "OrderIndex": 0,
-      "Condition": "",
+      "Condition": "false",
       "Parameters": {
         "JsonModel": "[{'dt':'[Date]'}]",
         "EntityName": "Rec",
