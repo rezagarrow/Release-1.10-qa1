@@ -66,27 +66,7 @@
         "ActionList": [
           {
             "Id": -1,
-            "$_uid": "action16073340766654834",
-            "EventName": "click",
-            "Parameters": {
-              "Content": "[Rec:dt] // [{'dt':'[Date]'}]",
-              "HttpCode": "200 OK",
-              "Headers": ""
-            },
-            "ActionType": "RawResponse",
-            "$_isOpen": false,
-            "$_isLoaded": true,
-            "$_isFocus": true,
-            "Definition": {
-              "IsClientAction": false,
-              "Settings": {
-                "Group": "Output"
-              }
-            }
-          },
-          {
-            "Id": -1,
-            "$_uid": "action16073340766657693",
+            "$_uid": "action16073349513699080",
             "EventName": "click",
             "Parameters": {
               "ConnectionString": "",
@@ -103,6 +83,26 @@
               "Settings": {
                 "Group": "PlantAnApp",
                 "EntityVersionId": "32"
+              }
+            }
+          },
+          {
+            "Id": -1,
+            "$_uid": "action16073349513691470",
+            "EventName": "click",
+            "Parameters": {
+              "Content": "[Rec:dt] // [{'dt':'[Date]'}]",
+              "HttpCode": "200 OK",
+              "Headers": ""
+            },
+            "ActionType": "RawResponse",
+            "$_isOpen": false,
+            "$_isLoaded": true,
+            "$_isFocus": true,
+            "Definition": {
+              "IsClientAction": false,
+              "Settings": {
+                "Group": "Output"
               }
             }
           }
