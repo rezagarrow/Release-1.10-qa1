@@ -21,7 +21,7 @@
     {
       "ActionType": "LoadEntitiesFromJson",
       "OrderIndex": 0,
-      "Condition": "false",
+      "Condition": "",
       "Parameters": {
         "JsonModel": "[{'dt':'[Date]'}]",
         "EntityName": "Rec",
@@ -32,8 +32,22 @@
       "Metadata": {}
     },
     {
-      "ActionType": "LoadEntitiesFromSql",
+      "ActionType": "JsonEntityList",
       "OrderIndex": 1,
+      "Parameters": {
+        "EntityName": "Rec",
+        "HttpCode": "",
+        "Criteria": "",
+        "Headers": "",
+        "AllowJsonp": ""
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {}
+    },
+    {
+      "ActionType": "LoadEntitiesFromSql",
+      "OrderIndex": 2,
       "Parameters": {
         "ConnectionString": "",
         "SqlQuery": "select cast(cast(@dt as datetimeoffset(7)) as nvarchar(50)) as dt",
@@ -53,7 +67,7 @@
     },
     {
       "ActionType": "ExecuteActionsOnEntityList",
-      "OrderIndex": 2,
+      "OrderIndex": 3,
       "Parameters": {
         "EntityName": "Rec",
         "Filters": "",
@@ -66,7 +80,7 @@
         "ActionList": [
           {
             "Id": -1,
-            "$_uid": "action16073349513699080",
+            "$_uid": "action16073349622343566",
             "EventName": "click",
             "Parameters": {
               "ConnectionString": "",
@@ -88,7 +102,7 @@
           },
           {
             "Id": -1,
-            "$_uid": "action16073349513691470",
+            "$_uid": "action16073349622352189",
             "EventName": "click",
             "Parameters": {
               "Content": "[Rec:dt] // [{'dt':'[Date]'}]",
