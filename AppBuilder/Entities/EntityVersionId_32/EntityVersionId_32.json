@@ -1,0 +1,11 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 91,
+  "Id": 32,
+  "VersionId": 32,
+  "Name": "Date Issue",
+  "PluralName": "Date Issues",
+  "Icon": "table",
+  "Type": "UserCreated"
+}
