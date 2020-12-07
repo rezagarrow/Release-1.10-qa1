@@ -31,8 +31,23 @@
       "Metadata": {}
     },
     {
-      "ActionType": "ExecuteActionsOnEntityList",
+      "ActionType": "LoadEntitiesFromSql",
       "OrderIndex": 1,
+      "Parameters": {
+        "ConnectionString": "",
+        "SqlQuery": "select '[Date]' as dt",
+        "BindTokens": "",
+        "EntityName": "Rec",
+        "EntityProps": "",
+        "OnError": []
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {}
+    },
+    {
+      "ActionType": "ExecuteActionsOnEntityList",
+      "OrderIndex": 2,
       "Parameters": {
         "EntityName": "Rec",
         "Filters": "",
@@ -45,7 +60,7 @@
         "ActionList": [
           {
             "Id": -1,
-            "$_uid": "action16073339009133441",
+            "$_uid": "action16073340766654834",
             "EventName": "click",
             "Parameters": {
               "Content": "[Rec:dt] // [{'dt':'[Date]'}]",
@@ -53,7 +68,7 @@
               "Headers": ""
             },
             "ActionType": "RawResponse",
-            "$_isOpen": true,
+            "$_isOpen": false,
             "$_isLoaded": true,
             "$_isFocus": true,
             "Definition": {
@@ -65,7 +80,7 @@
           },
           {
             "Id": -1,
-            "$_uid": "action16073339009138472",
+            "$_uid": "action16073340766657693",
             "EventName": "click",
             "Parameters": {
               "ConnectionString": "",
